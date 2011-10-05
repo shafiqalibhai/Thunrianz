@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>auth_ldap</id>
+			<name>LDAP authentication drabot</name>
+			<creationDate>2007/11/14</creationDate>
+			<author>legolas558</author>
+			<copyright>Released under GNU/GPL License</copyright>
+			<authorEmail>legolas558@users.sourceforge.net</authorEmail>
+			<version>0.2</version>
+			<group>core</group>
+			<description>Allows LDAP authentication</description>
+			<requirements>
+				<core>
+					<version>0.4.9</version>
+				</core>
+			</requirements>
+			<params>
+				<param name="server" type="text" default="localhost" label="_AUTH_LDAP_SERVER" />
+				<param name="port" type="integer" default="389" label="_AUTH_LDAP_PORT" />
+				<param name="base_dn" type="text" label="_AUTH_LDAP_BASE_DN" />
+				<param name="bind_dn" type="text" label="_AUTH_LDAP_BIND_DN" />
+				<param name="bind_password" type="text" label="_AUTH_LDAP_BIND_PASSWORD" />
+				<param name="role_field" type="text" default="businessCategory" label="_AUTH_LDAP_ROLE_FIELD" />
+				<param name="role" type="text" label="_AUTH_LDAP_ROLE" />
+				<param name="organization" type="text" label="_AUTH_LDAP_ORGANIZATION" />
+				<param name="uid_field" type="text" default="cn" label="_AUTH_LDAP_UID_FIELD" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>drabots/auth_ldap.php</filename>
+					</files>
+				</en>
+			</i18n>
+			<files>
+				<filename>auth_ldap.php</filename>
+			</files>
+		</drabot>
+	</drabots>
+</dkinstall>

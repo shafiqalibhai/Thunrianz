@@ -1,0 +1,1 @@
+<?php die;?>a:8:{i:0;s:8:"com_menu";i:1;s:8:"com_menu";i:2;s:1:"1";i:3;s:1:"2";i:4;s:8:"com_menu";i:5;s:8:"com_menu";i:6;s:13:"com_downloads";i:7;s:1:"1";}

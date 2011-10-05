@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+  <id>com_fm</id>
+  <name>fm</name>
+  <creationDate>2004/11/13</creationDate>
+  <author>The Lanius CMS Team</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <version>1.0.5</version>
+  <description>Lanius CMS File Manager Component. Revision by Limbo Freak (05 August 2005). Original author: Vikas Patial</description>
+	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+  <administration>
+    <menu>File Manager</menu>
+  <files>
+    <filename>admin.fm.html.php</filename>
+    <filename>admin.fm.php</filename>
+    <filename>fm.toolbar.php</filename>
+    <filename>fm.install.php</filename>
+  </files>
+<installfile>fm.install.php</installfile>
+</administration>
+</component>
+</components>
+</dkinstall>

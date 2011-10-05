@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>msg_options</id>
+			<name>Message user options</name>
+			<creationDate>2008-08-19</creationDate>
+			<author>legolas558</author>
+			<copyright>Released under GNU/GPL License</copyright>
+			<version>0.1</version>
+			<group>core</group>
+			<requirements>
+				<core>
+					<version>0.5.1</version>
+				</core>
+			</requirements>
+			<description>Message component options for user profile</description>
+			<params>
+				<param name="com_id" type="instance" component="message" default="0" label="_MSG_DEFAULT_INSTANCE" />
+			</params>
+			<files>
+				<filename>msg_options.php</filename>
+			</files>
+		</drabot>
+	</drabots>
+</dkinstall>

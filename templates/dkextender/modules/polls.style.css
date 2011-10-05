@@ -1,0 +1,42 @@
+.dkmod_polls .dk_content   
+{
+  padding-left     : 3px;
+  padding-right    : 0px;
+}
+.dkmod_polls td.row1 {
+  vertical-align   : top;
+  padding          : 2px;
+  background       : #e6eef2;
+  border-top       : 1px solid #ffffff;
+  border-bottom    : 1px solid #999999;
+  text-align:left;
+}
+.dkmod_polls td.row2 {
+  vertical-align   : top;
+  padding          : 2px;
+  background       : #ddddcc;
+  border-top       : 1px solid #ffffff;
+  border-bottom    : 1px solid #999999;
+  text-align:left;
+}
+.dkmod_polls .dk_content
+{
+  padding-top:5px;
+		 padding-left:3px;
+		  padding-right:3px;
+  text-align:left;
+}
+.dkmod_polls .polls_header
+{
+  font-weight:bold;
+  text-align:left;
+}
+.dkmod_polls table
+{
+  width:98%;
+}
+.dkmod_polls .dk_content 
+{
+  padding-top:5px;
+  margin-bottom:5px;
+}

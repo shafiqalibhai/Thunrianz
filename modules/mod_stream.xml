@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<modules>
+	<module>
+		<id>mod_stream</id>
+		<version>0.2</version>		
+		<creationDate>2006/11/24</creationDate>
+		<author>legolas558</author>
+		<copyright>Released under GNU/GPL License</copyright>
+		<authorEmail>legolas558@email.it</authorEmail>
+		<name>Media player</name>
+		<description>Creates an appropriate media player for the chosen stream</description>
+		<position>left</position>
+		<params>
+			<param name="type" type="list" default="wm" label="_STREAM_RENDERER" description="_RENDERER_DESC">
+				<option value="wm">_STREAM_WM</option>
+				<option value="qt">_STREAM_QT</option>
+				<option value="flash">_STREAM_FLASH</option>
+				<option value="real">_STREAM_REAL</option>
+			</param>
+			<param name="url" type="text" default="" label="_STREAM_URL" />
+			<param name="hidden" type="boolean" default="0" label="_HIDE_PLAYER" />
+			<param name="width" type="integer" default="170" label="_STREAM_WIDTH" />
+			<param name="height" type="integer" default="150" label="_STREAM_HEIGHT" />
+			<param name="controls" type="boolean" default="1" label="_SHOW_CONTROLS" />
+			<param name="autostart" type="boolean" default="1" label="_AUTO_START" />
+			<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+		</params>
+		<i18n>
+			<en>
+				<files>
+					<filename>modules/mod_stream.php</filename>
+				</files>
+			</en>
+		</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+		<files>
+			<filename>mod_stream.php</filename>
+		</files>
+	</module>
+</modules>
+</dkinstall>

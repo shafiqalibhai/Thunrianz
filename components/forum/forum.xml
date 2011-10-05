@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+	<id>com_forum</id>
+	<name>Forum</name>
+	<creationDate>2007/04/23</creationDate>
+	<author>legolas558</author>
+	<copyright>This component is released under the GNU/GPL License</copyright>
+	<authorEmail>legolas558@users.sourceforge.net</authorEmail>
+	<authorUrl>http://www.laniuscms.org/</authorUrl>
+	<version>0.5</version>
+	<description>Lanius CMS forum component</description>
+		<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+ 		   	<params>
+				<param name="rep_word" type="text" default="****" label="_FORUM_FILTER_REP" />
+				<param name="bad_words" type="text" default="" label="_FORUM_FILTER_BAD" />
+				<param name="show_count" type="integer" min="1" default="10" label="_FORUM_SHOW_COUNT" />
+				<param name="expanded_sections" type="boolean" default="0" label="_FORUM_EXPAND_SECTIONS" />
+				<param name="re_prefix" type="text" default="Re:" label="_FORUM_RE_PREFIX" />
+				<param name="notify_new_topics" type="boolean" default="1" label="_FORUM_NOTIFY_NEW_TOPICS" />
+				<param name="allow_avatar_upload" type="boolean" default="1" label="_FORUM_ALLOW_AVATAR_UPLOAD" />
+				<param name="resize_avatar_upload" type="integer" default="48" label="_FORUM_RESIZE_UPLOADED_AVATARS" />
+				<param name="enable_bb_img" type="boolean" default="0" label="_FORUM_ALLOW_BB_IMG" />
+				<param name="feeds" type="boolean" default="1" label="_FORUM_ENABLE_SYNDICATION" />
+			</params>
+	<files>
+	  <filename>forum.php</filename>
+	  <filename>forum.js</filename>
+	  <filename>forum.html.php</filename>
+	<filename>css/bbcstyle.css</filename>
+	</files>
+	<images>
+<filename>images/bbbold.png</filename>
+<filename>images/bbcode.png</filename>
+<filename>images/bbemail.png</filename>
+<filename>images/bbitalic.png</filename>
+<filename>images/bbquote.png</filename>
+<filename>images/bbunderline.png</filename>
+<filename>images/bburl.png</filename>
+<filename>images/folder.png</filename>
+<filename>images/oldposts.png</filename>
+<filename>images/unlocked.png</filename>
+<filename>images/sticked.png</filename>
+<filename>images/newposts.png</filename>
+<filename>images/locked.png</filename>
+<filename>images/out.txt</filename>
+	</images>
+	<install>
+	  <queries>
+	<query>
+FIXME!
+	</query>
+<query>
+FIXME!
+</query>
+<query>
+FIXME!
+</query>
+<query>
+FIXME!
+</query>
+
+<query>
+FIXME!
+</query>
+<query>
+
+FIXME!
+
+</query>
+
+ </queries>
+	</install>
+	<uninstall>
+	    <queries>
+	    <query>DROP TABLE #__forum_categories</query>
+	    <query>DROP TABLE #__forum_posts</query>
+	    <query>DROP TABLE #__forum_topics</query>
+	    <query>DROP TABLE #__forum_users</query>
+	    </queries>
+	</uninstall>
+	<administration>
+	  <menu>Forum</menu>
+	  <submenu>
+	 <menu option="categories">Categories</menu>
+	</submenu>
+	  <files>
+	    <filename>forum.toolbar.php</filename>
+	    <filename>admin.forum.html.php</filename>
+	  <filename>admin.forum.php</filename>
+	  </files>
+</administration>
+</component>
+</components>
+</dkinstall>

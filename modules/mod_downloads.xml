@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<modules>
+	<module>
+		<id>mod_downloads</id>
+		  <name>Downloads</name>
+		  <creationDate>2005/05/13</creationDate>
+		  <author>Lanius CMS Team</author>
+		  <version>0.2</version>
+		  <description>Display a various properties of downloads</description>
+		  <position>right</position>
+		  <group>downloads</group>
+			<params>
+				<param name="type" type="list" default="top" label="_SORT_BY">
+					<option value="top">_TOP_DOWNLOADS</option>
+					<option value="last">_LAST_DOWNLOADS</option>
+					<option value="rating">_TOP_RATED</option>
+					<option value="new">_NEW_DOWNLOADS</option>
+				</param>
+				<param name="count" type="text" default="10" label="_COUNT" />
+				<param name="@spacer" type="spacer" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+			</params>
+		  <files>
+		   <filename>modules/mod_downloads.php</filename>
+		  </files>
+		<i18n>
+			<en>
+				<files>
+					<filename>mod_downloads.php</filename>
+				</files>
+			</en>
+		</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+	</module>
+</modules>
+</dkinstall>

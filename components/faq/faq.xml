@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+<id>com_faq</id>
+  <name>faq</name>
+  <creationDate>2005/08/10</creationDate>
+  <author>The Lanius CMS Team</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <version>1.0</version>
+  <description>FAQ manager component - original author: Vikas Patial</description>
+	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+<params>  
+      <param name="show_count" type="integer" min="1" default="10" label="_SHOW_COUNT" />
+</params>
+
+  <files>
+    <filename>faq.php</filename>
+    <filename>faq.html.php</filename>
+  <filename>lang/faq.english.php</filename>
+  <filename>lang/faq.russian.php</filename>
+  </files>
+  <install>
+    <queries>
+  <query>
+  CREATE TABLE #__faq (
+id int(10) auto_increment,
+catid int(11) NOT NULL DEFAULT '0',
+question text,
+answer text,
+published int(1) NOT NULL DEFAULT '0',
+ordering int(11) NOT NULL DEFAULT '0',
+PRIMARY KEY (id) 
+);</query>
+    </queries>
+  </install>
+  <uninstall>
+      <queries>
+      
+      <query>DROP TABLE #__faq</query>
+      <query>DELETE FROM #__categories WHERE section='com_faq'</query>
+    </queries>
+  </uninstall>
+  <administration>
+  <menu>FAQ</menu>
+  <submenu>
+  <menu option="questions">Questions</menu>
+  <menu option="categories">Categories</menu>
+  </submenu>
+    <files>
+      <filename>faq.toolbar.php</filename>
+      <filename>admin.faq.html.php</filename>
+    <filename>admin.faq.php</filename>
+    <filename>lang/admin.faq.english.php</filename>
+    <filename>lang/admin.faq.russian.php</filename>
+    </files>
+</administration>
+<drabots>
+<drabot>searchfaq</drabot>
+</drabots>  
+</component>
+</components>
+</dkinstall>

@@ -1,0 +1,222 @@
+.dkmod_menu  a.menu_mainlevel  {
+
+  font-family      : Arial, Verdana, Geneva, Helvetica, sans-serif;
+
+  text-align       : center;
+
+  display          : block;
+
+  line-height      : 22px;
+
+  height		   : 20px;
+
+  font-size        : 12px;
+
+  text-decoration  : none;
+
+  width            : auto;
+
+  background       : url(../images/boff.png);
+
+  color            : #999999;
+
+}
+
+
+
+
+
+.dkmod_menu  a.menu_mainlevel:link {
+
+  text-align       : center;
+
+  display          : block;
+
+  font-size        : 12px;
+
+  text-decoration  : none;
+
+  width            : auto;
+
+  color            : #999999;
+
+
+
+}
+
+.dkmod_menu a.menu_mainlevel , .dkmod_menu a.menu_mainlevel:visited {
+
+  text-align       : center;
+
+  display          : block;
+
+  font-size        : 12px;
+
+  font-weight      : normal;
+
+  padding          : 0px 0px 0px 0px;
+
+  color            : #999999;
+
+  width            : auto;
+
+}
+
+.dkmod_menu a.menu_mainlevel:hover {
+
+  text-align       : center;
+
+  display          : block;
+
+  background       : url(../images/bon.png);
+
+  font-size        : 12px;
+
+  font-weight      : normal;
+
+  text-decoration  : none;
+
+  color            : #FFFFFF;
+
+
+
+}
+
+#active_menu {
+
+  text-align       : center;
+  color            : #FFFFFF;
+  background       : url(../images/bon.png);
+  font-weight      : bold;
+
+}
+/* to fix an Opera bug */
+
+.topmenu {
+
+	display: block;
+
+}
+
+
+
+/* customization for the topmenu */
+
+.topmenu a.menu_mainlevel {
+
+  list-style        : none;
+
+  padding           : 0;
+
+  margin            : 0;
+
+  font-size         : 0.8em;
+
+  color            : #999999;
+
+
+
+}
+
+.topmenu ul.menu_mainlevel li {
+
+	display           : block;
+
+	background-image  : none;
+
+	padding-left      : 5px;
+
+	padding-right     : 5px;
+
+	float             : right;
+
+	margin            : 0;
+
+	width             : auto !important;
+
+	width             : 10%;
+
+	font-size         : 12px;
+
+	line-height       : 18px;
+
+	white-space       : nowrap;
+
+	border-left      : 1px solid #666666;
+
+    color            : #999999;
+
+}
+
+
+
+.topmenu li a.menu_mainlevel {
+
+  width             : 10%;
+
+  display           : block;
+
+  padding-left      : 5px;
+
+  padding-right     : 5px;
+
+  text-decoration   : none;
+
+  color             : #999999;
+
+  background        : transparent;
+
+  font-weight      : normal;
+
+}
+
+
+
+#buttons>.topmenu  ul.mainlevel li>a { width: auto; }
+
+
+
+.topmenu li a.menu_mainlevel:hover{
+
+  color            : #FF9900;
+
+  background        : transparent;
+
+}
+
+
+
+.dkmod_menu a.menu_sublevel:link, .dkmod_menu a.menu_sublevel:visited {
+
+ 	font-family      :Tahoma, Arial, Verdana, Geneva, Helvetica, sans-serif;
+
+	padding-left: 1px;
+
+	font-size: 11px;
+
+	font-weight  : bold;
+
+	text-decoration: none;
+
+	color: #333333;
+
+}
+
+
+
+.dkmod_menu a.menu_sublevel:hover {
+
+	background-color:#FFFFFF;
+
+	color: #000080;
+
+}
+
+
+
+.dkmod_menu a.menu_sublevel#active_menu {
+	background-image: none;
+	padding:0px 0px 0px 10px;
+}
+
+

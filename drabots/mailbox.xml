@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>mailbox</id>
+			<name>Mailbox mailer</name>
+			<author>The Lanius CMS Team</author>
+			<creationDate>2008/01/30</creationDate>
+			<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+			<version>0.1</version>
+			<group>mail</group>
+			<description>Appends sent mail to a mailbox file</description>
+			<requirements>
+				<core>
+					<version>0.4</version>
+				</core>
+			</requirements>
+			<params>
+				<param name="mbfile" type="text" default="private/mailbox.php" label="_MAILBOX_MBFILE" />
+			</params>
+		</drabot>
+	</drabots>
+</dkinstall>

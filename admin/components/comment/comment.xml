@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+	<name>comment</name>
+	<creationDate>2005/07/15</creationDate>
+	<author>The Lanius CMS Team</author>
+	<copyright>This component is released under the GNU/GPL License. This version is optimized for the Limbo-CMS v1.0.4</copyright>
+	<version>1.0.5</version>
+	<description>Comment component - orignally written by Limbo Freak</description>
+	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+  <files>
+  </files>
+    <install>
+    <queries>
+      <query>
+CREATE TABLE #__content_comment (
+id int(11) auto_increment,
+comment_id int(11) NOT NULL default '',
+title char(255) NOT NULL default '',
+name char(50) NOT NULL default '',
+comment char(255) NOT NULL default '',
+date char(20) NOT NULL default '',
+PRIMARY KEY (id)
+)
+  </query>
+    </queries>
+  </install>
+  <uninstall>
+      <queries>
+      <query>DROP TABLE #__content_comment</query>
+      </queries>
+  </uninstall>
+  <administration>
+	<menu>Manage Comments</menu>
+	<files>
+		<filename>comment.toolbar.php</filename>
+		<filename>admin.comment.html.php</filename>
+		<filename>admin.comment.php</filename>
+		<filename>lang/comment.english.php</filename>
+		<filename>comment.xml</filename>
+	</files>
+  </administration>
+</component>
+</components>
+</dkinstall>

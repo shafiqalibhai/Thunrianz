@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<drabots>
+<drabot>
+	<id>dravote</id>
+	<name>Vote Drabot</name>
+	<author>The Lanius CMS Team</author>
+	<creationDate>2005/03/01</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>4.5.1</version>
+	<group>content</group>
+	<description>Add the Voting functionality to Items. Original author: Vikas Patial</description>
+  	<requirements>
+		<core>
+			<version>0.4.0</version>
+		</core>
+	</requirements>
+			<i18n>
+			<en>
+				<files>
+					<filename>drabots/dravote.php</filename>
+				</files>
+			</en>
+		</i18n>
+		<files>
+		<filename mambot="dravote">dravote.php</filename>
+	</files>
+	<params/>
+</drabot>
+</drabots>
+</dkinstall>

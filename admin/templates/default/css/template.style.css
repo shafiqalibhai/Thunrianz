@@ -1,0 +1,242 @@
+
+body {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	margin: 0px;
+	width: 100%;
+}
+/* component container */
+.dka_component {
+	margin-right: 0px;
+	margin-left: 0px;
+	/*background-color: #F5F5F5;*/
+	/*padding-left:5px;*/
+}
+
+.top-update{
+background-color:#333333;
+padding-left:20px;
+}
+.top-logo{
+background-color:#333333;
+}
+
+.navinfo {
+	background-color: #fafafa;
+	border-top: 1px dashed #CCCCCC;
+	border-right: 0px dashed #CCCCCC;
+	border-bottom: 1px dashed #CCCCCC;
+	border-left: 0px dashed #CCCCCC;
+}
+.f16 {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a , a:link {
+color: #3333FF;
+text-decoration: underline;
+}
+
+.dlinks , .dlinks:link , .dlinks:visited{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+	margin-left: 2px;
+}
+
+.tabtitle {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-indent: 10pt;
+	padding: 3px;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+
+.tabbody {
+	background-color: #ffffff;
+}
+
+td {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	
+}
+.button , .topbar {
+	font-size: 13px;
+	color: #000000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	margin: 0px 4px 0px 0px;
+	padding: 1px 10px 1px 10px;
+	text-align: center;
+}
+.dk_inputbox, .tf {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	text-indent: 2px;
+	background-image   :url(../images/inputback.png);
+	border             : 1px solid #666666;
+
+}
+
+/* the tabbed pane interface */
+.ontab {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #999999;
+	text-align: center;
+	margin: 0px;
+	width: 100px;
+	cursor : pointer;
+	border: 1px solid #CCCCCC;
+	text-decoration: none;
+	padding: 0px;
+	line-height: 20px;
+}
+
+.offtab {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #ffffff;
+	text-align: center;
+	margin: 0px;
+	cursor : pointer;
+	width: 100px;
+	border: 1px solid #CCCCCC;
+	text-decoration: none;
+	padding: 0px;
+	line-height: 20px;
+}
+
+.tabpadding {
+
+}
+
+.tabheading {
+	background-color: #ffae00;
+	/*border-left: solid 1px #777777;*/
+	/*border-right: solid 1px #777777;*/
+	color: #FFFFFF;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: left;
+}
+
+.pagetext {
+	visibility: hidden;
+	display: none;
+}
+
+/* Content nav */
+
+.pathway-backend {
+	background-image : url(../images/bgtoolbar-h.png); 
+	width: 300px;
+	/*border: 1px inset #FFFFFF;*/
+	font-size: 12px;
+	padding: 2px 0px 2px 10px;
+	margin-left: 10px;
+	color:#ff9900;
+}
+
+.help
+{
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 300px;
+	border: 1px inset #FFFFFF;
+	font-size: 12px;
+	padding: 2px 0px 2px 10px;
+	margin-left: 10px;
+	padding-right: 0px;
+}
+
+.toolbar-header {
+	text-align: right;
+	margin-right: 0px;
+
+	height:28px;
+	padding-top:5px;
+	/*background-color: #efefef;*/
+	/*border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;*/
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #e6e6e6;
+	/*background-image : url(../images/bgtoolbar-h.png); */
+}
+.toolbar-footer {
+	text-align: right;
+	margin-right: 0px;
+	margin-top:20px;
+	/*height:30px;*/
+	padding:4px 4px 4px 4px;
+	/*background-color: #efefef;*/
+/*	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #cccccc;
+	/*background-image : url(../images/bgtoolbar-f.png); */
+}
+
+.toolmenu {
+	/*border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	background-color: #efefef;*/
+	background-image : url(../images/bgmenu.png); 
+}
+.contentnav { margin:4px 0;}
+
+form {
+	margin: 0px;
+}
+.wlink , .wlink:link {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.startpageheader {
+	margin-top:5px;
+}
+.massop {
+padding-right:5px;
+text-align:right;
+}
+
+.footer {
+/*	position: absolute; 
+	bottom: 0px; */
+	width: 99%;
+	background-color: #333333;
+	border: 1px solid #666666; padding: 3px;
+	font-weight: bold;
+	color: white;
+}
+
+.toolbar input[type="button"] {
+		font-size: medium;
+		margin: 12px;
+}

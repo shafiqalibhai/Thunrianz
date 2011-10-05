@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>filelog</id>
+			<name>File logger</name>
+			<author>The Lanius CMS Team</author>
+			<creationDate>2008/01/13</creationDate>
+			<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+			<version>0.2</version>
+			<group>logger</group>
+			<description>File logger, appends log entries to a file and provides splitting/compression</description>
+			<requirements>
+				<core>
+					<version>0.5.2</version>
+				</core>
+			</requirements>
+			<params>
+				<param name="split_size" type="integer" min="1024" default="10240" label="_FILE_LOG_SPLITSIZE" />
+				<param name="log_path" type="text" default="private/" label="_FILE_LOG_LOGFILE" />
+			</params>
+		</drabot>
+	</drabots>
+</dkinstall>

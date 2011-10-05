@@ -1,0 +1,1 @@
+<?php die;?>a:2:{i:0;s:19:"The Lanius CMS Team";i:1;s:9:"Webmaster";}

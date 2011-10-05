@@ -1,0 +1,1 @@
+<?php die;?>a:4:{i:0;s:8:"packages";i:1;s:0:"";i:2;s:6:"manage";i:3;s:0:"";}

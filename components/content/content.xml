@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+	<components>
+		<component>
+			<id>com_content</id>
+			<name>Content</name>
+			<version>0.1</version>
+			<description>Content component</description>
+			<requirements>
+				<core>
+					<version>0.4</version>
+				</core>
+			</requirements>
+		   	<params>	
+				<param name="blog_show_count" type="integer" min="1" default="30" label="_CONTENT_BLOG_SHOW_COUNT" />
+				<param name="category_show_count" type="integer" min="1" default="10" label="_CONTENT_CATEGORY_SHOW_COUNT" />
+				<param name="hide_email" type="boolean" default="0" label="_CONTENT_ITEM_HIDE_EMAIL" />
+				<param name="email_captcha_level" type="access" default="1" label="_CONTENT_EMAIL_CAPTCHA_LEVEL" />
+				<param name="hide_print" type="boolean" default="0" label="_CONTENT_ITEM_HIDE_PRINT" />
+				<param name="hide_author" type="boolean" default="0" label="_CONTENT_ITEM_HIDE_AUTHOR" />
+				<param name="hide_created" type="boolean" default="0" label="_CONTENT_ITEM_HIDE_CREATED" />
+				<param name="hide_modified" type="boolean" default="0" label="_CONTENT_ITEM_HIDE_MODIFIED" />
+				<param name="hide_permalink" type="boolean" default="0" label="_CONTENT_ITEM_HIDE_PERMALINK" />
+				<param name="hide_pdf" type="boolean" default="0" label="_CONTENT_ITEM_HIDE_PDF" />
+				<param name="export_cache" type="boolean" default="1" label="_CONTENT_ITEM_EXPORT_CACHE" />
+			</params>
+		</component>
+	</components>
+</dkinstall>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>dbsession</id>
+			<name>DB session</name>
+			<author>The Lanius CMS Team</author>
+			<creationDate>2007/11/30</creationDate>
+			<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+			<version>0.1</version>
+			<group>core</group>
+			<description>DB based session handler</description>
+			<requirements>
+				<core>
+					<version>0.4.9</version>
+				</core>
+			</requirements>
+		</drabot>
+	</drabots>
+</dkinstall>

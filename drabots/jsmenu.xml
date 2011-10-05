@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>jsmenu</id>
+			<name>Admin javascript menu</name>
+			<author>The Lanius CMS Team</author>
+			<creationDate>2008/01/07</creationDate>
+			<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+			<version>0.1</version>
+			<group>admin_menu</group>
+			<description>Admin javascript-based menu which uses JSCookMenu</description>
+			<requirements>
+				<core>
+					<version>0.4</version>
+				</core>
+			</requirements>
+		</drabot>
+	</drabots>
+</dkinstall>

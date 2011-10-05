@@ -1,0 +1,388 @@
+/***********************************************/
+/********* GLOBAL MODULES CLASSES **************/
+/***********************************************/
+.dk_module             
+
+{
+  width:100%;
+}
+
+.dk_module .dk_header h3 {    
+  font-family      : Arial, Verdana, Geneva, Helvetica, sans-serif;
+  font-size        : 11px;
+  font-weight      : bold;
+  text-align       : center;
+  height           : 24px;
+  cursor           : default;
+  line-height      : 24px;
+  color            : #ebebeb;
+  border-left      : 1px solid #999999; 
+  border-right     : 1px solid #999999; 
+  background-image : url(images/header.jpg);  
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.dk_module .dk_content      
+
+{
+  padding-left     : 3px;
+  padding-right    : 3px;
+}
+
+/********* GLOBAL COMPONENTS CLASSES **************/
+
+.dk_component      
+
+{
+ width:100%;
+}
+
+.dk_component .dk_header h2
+
+{
+  font-family      : Arial, Verdana, Geneva, Helvetica, sans-serif;
+  letter-spacing   : 1px;
+  background       : url(images/header.jpg);
+  font-size        : 12px;
+  font-weight      : bold;
+  height           : 22px;
+  line-height      : 22px;
+  padding-left     : 10px;
+  text-align       : left;
+  color            :  #ebebeb;
+  width            : 100%;
+  margin: 0; padding: 0;
+  padding-left: 4px;
+
+}
+
+.dk_component .dk_content
+
+{
+  width            : 100%;
+  padding-left     : 3px;
+  padding-right    : 3px;
+  padding-top      : 3px;
+  border-spacing   : 0px;
+  margin-bottom    : 5px;
+}
+
+/********* GLOBAL FORM OBJECTS CLASSES **************/
+
+.dk_form        
+
+{
+  padding-top:10px;
+  padding-left:15px;
+}
+
+.dk_form .dk_content 
+
+{
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:5px;
+}
+
+.dk_button             
+
+{
+  font-family       : Verdana, Arial, Helvetica, sans-serif;
+  font-size         : 11px;
+  border            : 1px solid #AABBBF;
+  background-color  : #FFFFFF;
+  color             :#404F59;
+  background-image  : url(images/but.png);
+  padding           : 2px;
+
+}
+
+.dk_inputbox           
+{
+  background-image   :url(images/inputback.jpg);
+  border             : 1px solid #666;
+}
+
+.dk_radio
+
+{
+}
+
+.dk_select
+
+{
+}
+
+/********* GLOBAL GENERIC CLASSES **************/
+
+.dk_content             
+{}
+.dk_header             
+{}
+.dk_aligncenter
+{
+  text-align:center;
+}
+.dk_alignleft
+{
+  text-align:left;
+}
+.dk_alignright
+{
+  text-align:right;
+}
+.dk_small
+{
+  font-size        : 10px;
+  color            : #333333;
+}
+.dk_label
+{  
+}
+.dk_clr
+{
+}
+/*******************************************************/
+/************** GENERICS CUSTOM CLASSES ****************/
+/*******************************************************/
+body {
+  color            : #000000;
+  margin-left      : 10px;
+  margin-right     : 10px;
+  margin-top       : 0px;
+  margin-bottom    : 0px;
+  padding          : 0px;
+  background-color : #e5e5e5;
+  font-family      : arial, sans-serif;
+  font-size        : 12px;
+}
+
+td, tr, p, div {
+  font-family      : Arial, Helvetica, sans-serif;
+  font-size        : 12px;
+  color            : #000000;
+}
+
+hr {
+  color            : #999999;
+  height           : 1px;
+  width            : 100%;
+}
+
+h1.title {
+  font-family      : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-weight      : bold;
+  text-indent      : 8px;
+  font-size        : 20px;
+  text-align       : left;
+  color            : #e5e5e5;
+}
+
+h1.title a:link, h1.title a:visited {
+
+  font-size        : 20px;
+  color            : #e5e5e5;
+  text-decoration  : none;
+  font-weight      : bold;
+
+}
+
+h1.title a:hover {
+
+  font-size        : 20px;
+  color            : #e5e5e5;
+  text-decoration  : none;
+  font-weight      : bold;
+
+}
+
+
+
+a:link, a:visited {
+
+  font-size        : 12px;
+  color            : #333333;
+  /*text-decoration  : none;*/
+  font-weight      : normal;
+
+}
+
+a:hover {
+
+  font-size        : 12px;
+  color            : #000080;
+ /* text-decoration  : none;*/
+  font-weight      : normal;
+
+}
+
+
+
+a.readon:link, a.readon:visited {
+
+  color            :#404F59;
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  white-space      : normal;
+  font-weight      : normal;
+  padding-bottom   : 4px;
+  padding-left     : 4px;
+  padding-right    : 4px;
+  padding-top      : 4px;
+  float            : left;
+  line-height      : 10px;
+  text-decoration  : none; 
+  border           : 1px solid #AABBBF;
+  background-color : #FFFFFF;
+  background-image : url(images/but.png);
+
+  }
+
+a.readon:hover {
+
+  color            :#FF9900;
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  white-space      : normal;
+  font-weight      : normal;
+  padding-bottom   : 4px;
+  padding-left     : 4px;
+  padding-right    : 4px;
+  padding-top      : 4px;
+  float            : left;
+  line-height      : 10px;
+  text-decoration  : none; 
+  border           : 1px solid #AABBBF;
+  background-color : #FFFFFF;
+
+}
+
+
+ul {
+
+  margin           : 2px;
+  padding-left     : 0px;
+  list-style       : none;
+
+}
+
+li {
+
+  line-height      : 15px;
+  padding-left     : 15px;
+  padding-top      : 0px;
+  background-image : url(images/bullet.png) ;
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+
+}  
+
+form { display:inline; }
+
+
+/**************************************************************/
+/************ TEMPLATE CLASSES (index.php) ********************/
+/**************************************************************/
+
+.createdate, .modifydate { font-size : 10px;  color  : #666666;}
+.date { font-family  : Arial, Verdana, Geneva, Helvetica, sans-serif; 
+  font-size        : 10px;  color  : #FF9900;  padding-right    : 10px;  padding-left    : 10px;}
+.copyright {color : #999999; font-family  : arial, sans-serif;	font-size  : 11px;	font-weight: bold;}
+.copyright a:link, .copyright a:visited{color : #e5e5e5; font-family  : arial, sans-serif;
+	font-size  : 11px;	font-weight: bold;}
+.pathway { font-size  : 10px;  text-decoration  : none;  color : #cccccc;  padding-left  : 14px;}
+a.pathway:link, a.pathway:visited { color : #FF9900;  font-size : 10px;  padding-left : 0px;}
+a.pathway:hover { font-size : 10px;  padding-left : 0px;}
+.tpl_maintable {border-left: 2px solid #99A0AA; border-right: 2px solid #99A0AA; border-bottom: 1px solid #99A0AA;
+border-top: 1px solid #99A0AA; background  : #CFCFCF;}
+.tpl_toolbar {background       : #414141;border-bottom: 1px solid #4D4D4D; }
+.tpl_headerfill {  background       : url(images/top-fill.png);}
+.tpl_headerlogo {  background       : url(images/top.png);}
+.tpl_footer {  background       : url(images/bottom.png);}
+.tpl_columnleft {  background       : url(images/modulback.png);  border-right: 1px solid #666666;}
+.tpl_columnright {  background       : url(images/modulback.png); border-left: 1px solid #666666;}
+.tpl_columncenter { /* border-left: 1px solid #999999; border-right: 1px solid #999999;*/}
+.tpl_modulecenter { border-bottom: 1px solid #999999;}
+
+/**************************************************************/
+/********************* COMPONENTS SHARED CLASSES ***************/
+/**************************************************************/
+
+.dkcom_tablerow1
+
+{
+
+  vertical-align   : top;
+  padding          : 3px;
+  background       : #E6EEF2;
+  border-top       : 1px solid #FFFFFF;
+  border-bottom    : 1px solid #999999;
+
+}
+
+.dkcom_tablerow2
+
+{
+
+  vertical-align   : top;
+  padding          : 3px;
+  border-top       : 1px solid #FFFFFF;
+  border-bottom    : 1px solid #999999;
+
+}
+
+.dkcom_tableheader {
+
+  font-size        : 11px;
+  font-weight      : normal;
+  letter-spacing   : 1px;
+  background       : #D8E0E4;
+  color            : #333333;
+  padding          : 4px;
+
+}
+
+.dk_category-icons
+
+{
+
+  margin-right:10px;
+
+}
+
+.dkcom_section
+
+{
+
+  width            : 98%;
+  padding-left     : 3px;
+  padding-right    : 3px;
+  padding-top      : 3px;
+  border-spacing   : 0px;
+  margin-bottom    : 5px;
+  clear:both;
+
+}
+
+.dkcom_section .dk_header
+
+{    
+
+  font-family      : Arial, Verdana, Geneva, Helvetica, sans-serif;
+  letter-spacing   : 1px;
+  background       : url(images/header.jpg);
+  font-size        : 12px;
+  font-weight      : bold;
+  height           : 22px;
+  line-height      : 22px;
+  padding-left     : 10px;
+  text-align       : left;
+  color            :  #ebebeb;
+  width            : 100%;
+  margin: 0; padding: 0;
+  padding-left: 4px;
+
+}
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+	<id>com_registration</id>
+	<name>Registration</name>
+	<version>0.2</version>
+	<description>Registration component</description>
+  	<requirements>
+		<core>
+			<version>0.5</version>
+		</core>
+	</requirements>
+   	<params>
+		<param name="registration_new" type="boolean" default="1" label="_REGISTRATION_NEW_USERS" />
+		<param name="registration_published" type="boolean" default="1" label="_REGISTRATION_USERS_PUBLISHED" description="_REGISTRATION_USERS_PUBLISHED_DESC" />
+		<param name="registration_activation" type="list" default="3" label="_REGISTRATION_CONFIRM_MODE">
+					<option value="0">_REGISTRATION_MODE_UPNE</option>
+					<option value="1">_REGISTRATION_MODE_UPE</option>
+					<option value="2">_REGISTRATION_MODE_NP</option>
+					<option value="3">_REGISTRATION_MODE_AL</option>
+		</param>
+		<param name="registration_newpass" type="list" default="2" label="_REGISTRATION_NEW_PASS">
+					<option value="0">_REGISTRATION_NP_MODE_UP</option>
+					<option value="1">_REGISTRATION_MODE_NP</option>
+					<option value="2">_REGISTRATION_MODE_AL</option>
+		</param>
+		<param name="xup_support" type="boolean" default="1" label="_REGISTRATION_A_XUP_SUPPORT" />
+		<param name="captcha" type="boolean" default="1" label="_REGISTRATION_CAPTCHA" />
+		<param name="notify" type="boolean" default="1" label="_REGISTRATION_NOTIFY" />
+	</params>
+</component>
+</components>
+</dkinstall>

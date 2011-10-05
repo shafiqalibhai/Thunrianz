@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<drabots>
+<drabot>
+<id>searchcomment</id>
+ <name>Search Comment Drabot</name>
+ <author>The Lanius CMS Team</author>
+ <creationDate>2005/06/01</creationDate>
+ <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+ <version>1.0.0</version>
+ <group>search</group>
+ <description>Add the search in comment functionality to Items. Original author: KVT</description>
+  	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+ <files>
+   <filename mambot="searchcomment">searchcomment.php</filename>
+ </files>
+ <params/>
+</drabot>
+</drabots>
+ </dkinstall>

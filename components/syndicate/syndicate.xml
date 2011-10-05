@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+	<components>
+		<component>
+			<id>com_syndicate</id>
+			<name>Syndicate</name>
+			<version>0.1</version>
+			<description>Lanius CMS core component</description>
+			<requirements>
+				<core>
+					<version>0.4</version>
+				</core>
+			</requirements>
+			<params>	
+				<param name="show_count" type="integer" min="1" default="15" label="_SHOW_COUNT" />
+				<param name="atom_channel_title" type="text" default="Lanius CMS atom feed" label="_SYNDICATE_ATOM_CHANNEL_TITLE" />
+				<param name="atom_channel_author" type="text" default="Lanius CMS syndication" label="_SYNDICATE_ATOM_CHANNEL_AUTHOR" />
+				<param name="atom_channel_mail" type="text" default="noreply@example.com" label="_SYNDICATE_ATOM_CHANNEL_MAIL" />
+				<param name="rss_2_0_enabled" type="boolean" default="1" label="_SYNDICATE_RSS_2_0_ENABLED" />
+				<param name="atom_1_0_enabled" type="boolean" default="1" label="_SYNDICATE_ATOM_1_0_ENABLED" />
+				<param name="rss_1_0_enabled" type="boolean" default="1" label="_SYNDICATE_RSS_1_0_ENABLED" />
+				<param name="default_feed_type" type="list" default="rss_2_0" label="_SYNDICATE_DEFAULT_FEED_TYPE">
+					<option value="rss_2_0">_SYNDICATE_RSS_2_0</option>
+					<option value="atom_1_0">_SYNDICATE_ATOM_1_0</option>
+					<option value="rss_1_0">_SYNDICATE_RSS_1_0</option>
+				</param>
+			</params>
+		</component>
+	</components>
+</dkinstall>

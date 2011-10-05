@@ -1,0 +1,77 @@
+== LANIUS CMS README FILE ==
+
+== WHAT IS LANIUS CMS? ==
+
+Lanius CMS is a light-weight content management system (CMS) with one of the
+best performance and broadest host compatibilities in the CMS field. It comes
+out of the box with two flatfile database choices (Gladius DB and SQLite) and
+does not need third party databases although it supports all of them. It is 
+ideal for those hosts that do not have a RDMS (Relational Database Management
+System) such as MySQL, as is the case in almost every freely hosted site. 
+Its target solutions span from a small website to the most complex portal or
+web application; it can be easily backed up with it's own SQL file and/or 
+complete backup so that maintenance and data recovery is a matter of seconds.
+
+Lanius CMS is open-source and available to everybody for free!
+
+Lanius CMS is suitable for a wide range of target solutions, spanning from
+small personal websites to complex commercial applications.
+
+This is an example listing of possible Lanius CMS applications:
+
+    * Community-based portals
+    * Personal or family homepages
+    * Corporate intranets and extranets
+    * Magazines and newspapers
+    * Non-profit and organizational websites
+    * School and church websites
+    * Corporate websites or portals
+    * Government applications 
+
+The standard Lanius CMS package is simple, easy to install and does not require
+any programming skills to setup. Once installed it is very easy to perform the
+most common tasks such as adding or editing content, managing photos or file
+downloads and administering forums. The simple web-based interface allows users
+to add new press releases or news items, manage staff pages and static content,
+job listings, product images, and create an unlimited number of sections and
+content pages on the website. Lanius CMS will adapt to your server capabilities
+and resources; it will work out-of-the-box with PHP4 and PHP5, forget your
+migration troubles. Your Lanius CMS on PHP4 will work without any compatibility
+issues when moved to PHP5. Also, it is extremely easy to make a backup with a
+flatfile database and then restore it on MySQL or any other database system.
+
+Lanius CMS is a powerful combination of speed, security, ease of use,
+flexibility and extreme customization capabilities.
+
+== SUPPORT ==
+
+Support is currently available for free through the Lanius CMS Forums
+(http://laniuscms.org/forums).
+
+== DOCUMENTATION ==
+
+Documentation regarding the several functions and features available in Lanius
+CMS can be found at http://wiki.laniuscms.org.
+
+== ISSUE TRACKER ==
+
+If you find any bug or just want to suggest an improvement or a new Feature
+then please submit them to http://bugs.laniuscms.org/
+
+== LICENSE ==
+
+Lanius CMS is released under the GNU General Public license version 2,
+abbreviated as GNU/GPL or GNU/GPLv2. The license provides for a person or
+persons to distribute Lanius CMS for a fee, but to actually not charge for the
+software itself as Lanius CMS is free. Lanius CMS is free to share and change,
+but, what if I change it in anyway, can I also change the license and make it
+commercial? The answer is: No! The whole GPL is devoted to ensuring this does
+not happen. Copyright, a much more refined and stringent law will prevent this
+as well.
+You MAY distribute it and charge for that service. You MAY change it, add
+design and content to it and you MAY charge for that. You may NOT alter the 
+license and you must NOT alter the copyright.
+In other words, you must NOT pretend that Lanius CMS is yours, and you must NOT
+charge people for Lanius CMS.
+
+See also LICENSE for the full license.

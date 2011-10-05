@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_newsfeed</id>
+			<name>NewsFeed</name>
+			<author>Lanius CMS Team</author>
+			<version>0.3</version>
+			<position>left</position>
+			<params>
+				<param name="newslink" type="text" default="" label="_NEWSFEED_LINK" />
+				<param name="show_count" type="integer" default="5" label="_NEWSFEED_ITEMS" />
+				<param name="refresh" type="integer" default="3600" label="_NEWSFEED_REFRESH" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_newsfeed.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.5.1</version>
+			</core>
+		</requirements>
+			<files>
+				<filename>mod_newsfeed.php</filename>
+			</files>
+		</module>
+	</modules>
+</dkinstall>

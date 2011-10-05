@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+  <name>gositemap</name>
+  <creationDate>2004/07/09</creationDate>
+  <author>legolas558</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <version>0.2</version>
+  <description>Google Sitemap Component, allows creation of structured google sitemaps with indexed content. Original author: Limbo Freak</description>
+	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+  <files>
+  </files>
+  <administration>
+    <menu>Google Sitemap Creator</menu>
+  <files>
+     <filename>admin.gositemap.php</filename>
+     <filename>gositemap.xml</filename>
+     <filename>gositemap.install.php</filename>
+  </files>
+<installfile>gositemap.install.php</installfile>
+</administration>
+</component>
+</components>
+</dkinstall>

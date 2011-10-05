@@ -1,0 +1,1 @@
+<?php die;?>a:4:{i:0;s:6:"system";i:1;s:10:"components";i:2;s:7:"modules";i:3;s:7:"drabots";}

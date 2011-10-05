@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+	<id>com_gallery</id>
+  <name>Enhanced Gallery</name>
+  <creationDate>2006/06/11</creationDate>
+  <author>legolas558</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>legolas558@users.sourceforge.net</authorEmail>
+  <version>0.5</version>
+  <description>Enhanced Gallery component</description>
+	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+  <files>
+      <filename>gallery.css</filename>
+    <filename>gallery.php</filename>
+    <filename>gallery.html.php</filename>
+	<filename>lang/gallery.english.php</filename>
+  </files>
+  <install>
+    <queries>
+      <query>
+      //TODO: put correct SQL?
+      </query>
+    </queries>
+  </install>
+  <uninstall>
+      <queries>
+      <query>DELETE FROM #__categories WHERE section='com_gallery'</query>
+      <query>DROP TABLE #__gallery</query>
+      </queries>
+  </uninstall>
+    <installfile>gallery.install.php</installfile>
+    <uninstallfile>gallery.uninstall.php</uninstallfile>
+  <administration>
+    <menu>Gallery</menu>
+    <submenu>
+      <menu option="config">Config</menu>	
+	  <menu option="items">Photos</menu>	
+	  <menu option="categories">Categories</menu>
+	</submenu>
+    <files>
+      <filename>gallery.toolbar.php</filename>
+      <filename>admin.gallery.html.php</filename>
+	  <filename>admin.gallery.php</filename>
+	  <filename>lang/admin.gallery.english.php</filename>
+    </files>
+</administration>
+  	<params>	
+		<param name="description" type="text" default="" label="_GALLERY_DESC" />
+		<param name="show_mode" type="list" default="thickbox" label="_GALLERY_SHOW_MODE" >
+			<option value="inset">_GALLERY_SHOW_INSET</option>
+			<option value="window">_GALLERY_SHOW_WINDOW</option>
+			<option value="popup">_GALLERY_SHOW_POPUP</option>
+			<option value="thickbox">_GALLERY_SHOW_THICKBOX</option>
+		</param>
+		<param name="show_cat" type="integer" min="1" default="3" label="_GALLERY_CATEGORY_ROWS" />
+		<param name="show_item" type="integer" min="1" default="3" label="_GALLERY_PHOTO_ROWS" />
+		<param name="show_item_row" type="integer" min="1" default="3" label="_GALLERY_PHOTO_PER_ROW" />
+		<param name="send_thumbnail" type="boolean" default="1" label="_GALLERY_SEND_THUMBNAIL" />
+	</params>
+</component>
+</components>
+</dkinstall>

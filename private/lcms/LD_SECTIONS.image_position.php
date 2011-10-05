@@ -1,0 +1,1 @@
+<?php die;?>a:2:{i:0;s:4:"left";i:1;s:4:"left";}

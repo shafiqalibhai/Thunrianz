@@ -1,0 +1,1 @@
+<?php die;?>a:3:{i:0;s:4:"Home";i:1;s:7:"Sitemap";i:2;s:3:"RSD";}

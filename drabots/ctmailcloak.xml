@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<drabots>
+<drabot>
+	<id>ctmailcloak</id>
+	<name>Content email cloaker</name>
+	<group>content</group>
+	<author>The Lanius CMS Team</author>
+	<creationDate>2008/02/10</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>0.2</version>
+	<description>Hide email addresses in shown content items</description>
+  	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+	<files>
+		<filename>ctmailcloak.php</filename>
+	</files>
+	<params>
+     <param name="method" type="list" default="html" label="_CTMAILCLOAK_METHOD">
+		  <option value="punctuation">_CTMAILCLOAK_OBFUSCATE_PUNCT</option>
+		  <option value="html">_CTMAILCLOAK_USE_HTML</option>
+		  <option value="javascript">_CTMAILCLOAK_USE_JAVASCRIPT</option>
+   	</param>
+	</params>
+</drabot>
+</drabots>
+</dkinstall>

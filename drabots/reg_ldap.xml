@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>reg_ldap</id>
+			<name>LDAP registration drabot</name>
+			<creationDate>2009/06/22</creationDate>
+			<author>legolas558</author>
+			<copyright>Released under GNU/GPL License</copyright>
+			<authorEmail>legolas558@users.sourceforge.net</authorEmail>
+			<version>0.1</version>
+			<group>core</group>
+			<description>will register the user into LDAP system, acting as a hook</description>
+			<requirements>
+				<core>
+					<version>0.5.0</version>
+				</core>
+			</requirements>
+			<params>
+				<param name="custom_attributes" type="text" label="_REG_LDAP_CUSTOM_ATTRS" />
+				<param name="dn_format" type="text" default="cn=%s,dc=example,dc=org" label="_REG_LDAP_DN_FORMAT" />
+				<param name="bind_dn" type="text" label="_REG_LDAP_BIND_DN" />
+				<param name="bind_password" type="text" label="_REG_LDAP_BIND_PASSWORD" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>drabots/reg_ldap.php</filename>
+					</files>
+				</en>
+			</i18n>
+			<files>
+				<filename>reg_ldap.php</filename>
+			</files>
+		</drabot>
+	</drabots>
+</dkinstall>

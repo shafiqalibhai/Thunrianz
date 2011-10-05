@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_lang</id>
+			<name>Change language</name>
+			<author>franky2004</author>
+			<position>left</position>
+			<version>1.0</version>
+			<description>Custom selection of the user language</description>
+			<params>
+				<param name="show_type" type="list" default="images" label="_SHOW_TYPE" description="_SHOW_TYPE_DESC">
+					<option value="dropdown">_DD_NAMES</option>
+					<option value="images">_SHOW_FLAGS</option>
+				</param>
+				<param name="show_label" type="boolean" default="1" label="_SHOW_DD" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_lang.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+			<files>
+				<filename>mod_lang.php</filename>
+			</files>
+		</module>
+	</modules>
+</dkinstall>

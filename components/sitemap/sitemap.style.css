@@ -1,0 +1,151 @@
+/*
+ * CSS for Standard tree layout
+ * Copyright (C) 2005 SilverStripe Limited
+ * Feel free to use this on your websites, but please leave this message in the fies
+ * http://www.silverstripe.com/blog
+ *
+ * Slightly modified by lecterror for integration (07/02/2007)
+ */
+
+ul.tree
+{
+	width: auto;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+ul.tree img
+{
+ 	border: none;
+}
+
+ul.tree, ul.tree ul
+{
+	padding-left: 0px;
+}
+
+ul.tree ul
+{
+	margin-left: 16px;
+}
+
+ul.tree li.closed ul
+{
+	display: none;
+}
+
+ul.tree li.last
+{
+	list-style: none;
+	background-image: none;
+}
+
+/* not sure why this is here..? (lecterror) */
+ul.tree span.b
+{
+}
+
+ul.tree span.c
+{
+	margin-left: 16px;
+}
+
+ul.tree span.a.spanClosed span.c
+{
+	background-image: none;
+}
+
+ul.tree.unformatted li
+{
+	background-image: none;
+	padding-left: 16px;
+}
+
+ul.tree.unformatted li li
+{
+	background-image: none;
+	padding-left: 0px;
+}
+
+ul.tree li div
+{
+	float: right;
+	clear: right;
+	height: 1em;
+	margin-top: -26px;
+}
+
+ul.tree div a
+{
+	padding: 0px;
+	background-image: none;
+/*	min-height: auto;	*/
+	height: auto;
+}
+
+ul.tree li A:link, ul.tree li A:hover, ul.tree li A:visited
+{
+	color: #111111;
+}
+
+ul.tree li .over
+{
+	background-color: pink;
+}
+
+
+ul.tree li
+{
+	list-style: none;
+	background: url("images/i-repeater.png") 0 0 repeat-y;
+	display: block;
+	width: auto;
+	padding-left: 0px;
+}
+
+ul.tree span.a
+{
+	background: url("images/t.png") 0 50% no-repeat;
+	display: block;
+}
+
+ul.tree span.a.last
+{
+	background: url("images/l.png") 0 50% no-repeat;
+}
+
+ul.tree span.a.children span.b
+{
+	background: url("images/minus.png") 0 50% no-repeat;
+	cursor: pointer;
+}
+
+ul.tree li.closed span.a.children span.b
+{
+	background: url("images/plus.png") 0 50% no-repeat;
+	cursor: pointer;
+}
+
+ul.tree span.a.children span.c
+{
+	background: url("images/i-bottom.png") 0 50% no-repeat;
+}
+
+ul.tree a
+{
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 10px 0px 10px 18px;
+	line-height: 16px;
+	background: url("images/page-file.png") 0 50% no-repeat;
+}
+
+ul.tree span.a.children a
+{
+	background-image: url("images/page-openfoldericon.png");
+}
+
+ul.tree span.a.children.spanClosed a
+{
+	background-image: url("images/page-foldericon.png");
+}

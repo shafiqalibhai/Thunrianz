@@ -1,0 +1,8 @@
+/* CSS style copied from admin backend template Default, rather unused as the About page should always look OK in backend */
+/* (because of a defined .tabbody class in admin template) and in frontend (it's not defined in user template, but when it */
+/* doesn't find it, the default value is loaded for .td (by default it's background is not set) and then (I think) for .body */
+/* (which always contain correct value for background, as it is used by every frontend page - so it's the same) */
+
+.tabbody { 			
+	/* background-color: #ffffff; */
+}

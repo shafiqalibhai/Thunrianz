@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_archive</id>
+			<name>Archived Content</name>
+			<version>0.1</version>
+			<position>right</position>
+			<group>content</group>
+			<params>
+				<param name="count" type="integer" default="10" label="_COUNT" description="_ARCHIVE_COUNT_DESC" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_archive.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+			<files>
+				<filename>mod_archive.php</filename>
+			</files>
+		</module>
+	</modules>
+</dkinstall>

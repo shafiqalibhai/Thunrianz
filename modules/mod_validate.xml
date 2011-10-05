@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_validate</id>
+			<name>W3C validations</name>
+			<author>legolas558</author>
+			<position>left</position>
+			<version>0.1</version>
+			<description>Various W3C validations, XHTML, CSS etc.</description>
+			<params>
+				<param name="show_xhtml" type="boolean" default="1" label="_VALIDATE_XHTML" />
+				<param name="xhtml_version" type="text" default="1.0" label="_VALIDATE_XHTML_VERSION" />
+				<param name="show_css" type="boolean" default="0" label="_VALIDATE_CSS" />
+				<param name="css_version" type="text" default="2.1" label="_VALIDATE_CSS_VERSION" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_validate.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+			<files>
+				<filename>mod_validate.php</filename>
+				<filename>images/valid-xhtml10.png</filename>
+				<filename>images/valid-xhtml11.png</filename>
+				<filename>images/valid-css.png</filename>
+			</files>
+		</module>
+	</modules>
+</dkinstall>

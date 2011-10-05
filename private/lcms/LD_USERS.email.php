@@ -1,0 +1,1 @@
+<?php die;?>a:2:{i:0;s:21:"webmaster@example.com";i:1;s:15:"email@shafiq.in";}

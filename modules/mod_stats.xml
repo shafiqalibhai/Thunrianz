@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_stats</id>
+			<name>Site Statistics</name>
+			<creationDate>2005/05/13</creationDate>
+			<author>Alex Dirk</author>
+			<copyright>Released under GNU/GPL License</copyright>
+			<authorEmail>alexdirk@gmail.com</authorEmail>
+			<version>0.1</version>
+			<description>Logging module for simple statistics</description>
+			<position>right</position>
+			<files>
+				<filename>mod_stats.php</filename>
+			</files>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_stats.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+		</module>
+	</modules>
+</dkinstall>

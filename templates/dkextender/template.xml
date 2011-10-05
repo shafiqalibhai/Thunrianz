@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.2">
+	<templates>
+		<template>
+			<id>dkextender</id>
+			<name>CMS Extender</name>
+			<creationDate>2009/10/17</creationDate>
+			<author>Shafiq Issani</author>
+			<copyright>GNU/GPL</copyright>
+			<authorEmail></authorEmail>
+			<authorUrl>http://shafiq.in</authorUrl>
+			<version>1.0</version>
+			<description>Powered by Shafiq Issani</description>
+			<files>
+				<filename>index.php</filename>
+				<filename>template_thumbnail.png</filename>
+				<filename>images/boff.png</filename>
+				<filename>images/bon.png</filename>
+				<filename>images/bullet.png</filename>
+				<filename>images/but.png</filename>
+				<filename>images/center1.jpg</filename>
+				<filename>images/center2.jpg</filename>
+				<filename>images/center3.jpg</filename>
+				<filename>images/center4.jpg</filename>
+				<filename>images/header.png</filename>
+				<filename>images/inputback.jpg</filename>
+				<filename>images/left1.png</filename>
+				<filename>images/left2.jpg</filename>
+				<filename>images/left3.png</filename>
+				<filename>images/right1.png</filename>
+				<filename>images/right2.jpg</filename>
+				<filename>images/right3.png</filename>
+				<filename>images/rightback.png</filename>
+				<filename>images/leftback.png</filename>
+				<filename>images/modulback.png</filename>
+				<filename>images/search.jpg</filename>
+				<filename>images/top.jpg</filename>
+				<filename>images/space.png</filename>
+				<filename>images/indent1.png</filename>
+				<filename>template.style.css</filename>
+				<filename>components/event.style.css</filename>
+				<filename>components/gallery.style.css</filename>
+				<filename>components/polls.style.css</filename>
+				<filename>drabots/dravote.style.css</filename>
+				<filename>modules/eventcal.style.css</filename>
+				<filename>modules/menu.style.css</filename>
+				<filename>modules/polls.style.css</filename>
+			</files>
+		</template>
+	</templates>
+</dkinstall>

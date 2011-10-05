@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+	<component>
+		<id>com_guestbook</id>
+	  <name>Guestbook</name>
+	  <creationDate>2004/12/14</creationDate>
+	  <author>The Lanius CMS Team</author>
+	  <copyright>This component is released under the GNU/GPL License</copyright>
+	  <authorEmail></authorEmail>
+	  <authorUrl></authorUrl>
+	  <version>2.1</version>
+	  <description>Lanius CMS guestbook component. Original author: Vikas Patial</description>
+		<requirements>
+			<core>
+				<version>0.4</version>
+			</core>
+		</requirements>
+	  <files>
+	    <filename>guestbook.php</filename>
+	    <filename>guestbook.html.php</filename>
+		<filename>lang/guestbook.english.php</filename>
+	  </files>
+	  <install>
+	    <queries>
+	      <query>
+	CREATE TABLE #__guestbook (
+	id INTEGER AUTO_INCREMENT,
+	name VARCHAR(50) NOT NULL,
+	email VARCHAR(50) NOT NULL,
+	url TEXT NOT NULL,
+	country VARCHAR(50) NOT NULL,
+	title VARCHAR(255) NOT NULL,
+	message TEXT,
+	reply TEXT,
+	ip VARCHAR(36) NOT NULL,
+	date INTEGER NOT NULL,
+	PRIMARY KEY (id) )
+	</query>
+	    </queries>
+	  </install>
+	  <uninstall>
+	      <queries>
+			<query>DROP TABLE #__guestbook</query>
+	      </queries>
+	  </uninstall>
+	  <administration>
+	    <menu>GuestBook</menu>
+	    <files>
+	      <filename>guestbook.toolbar.php</filename>
+	      <filename>admin.guestbook.html.php</filename>
+		  <filename>admin.guestbook.php</filename>
+	    </files>
+	</administration>
+		<params>	
+			<param name="timeout" type="text" default="5" label="_GUESTBOOK_FLOOD_TIMEOUT" />
+			<param name="email_show" type="access" default="1" label="_GUESTBOOK_EMAIL_SHOW" />
+			<param name="captcha" type="access" default="1" label="_GUESTBOOK_CAPTCHA" />
+			<param name="email_obfuscate" type="boolean" default="0" label="_GUESTBOOK_EMAIL_OBFUSCATE" />
+			<param name="show_count" type="integer" min="1" default="10" label="_SHOW_COUNT" />
+		</params>
+	</component>
+</components>
+</dkinstall>

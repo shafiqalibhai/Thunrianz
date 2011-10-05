@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<modules>
+	<module>
+		<id>mod_menu</id>
+		<author>Lanius CMS Team</author>
+		<version>0.2</version>
+		<name>Menu</name>
+		<position>left</position>
+			<params>
+				<param name="menu_style" type="list" default="vertical" label="_MENU_STYLE">
+					<option value="vertical">_MENU_VERTICAL</option>
+					<option value="horizontal">_MENU_HORIZONTAL</option>
+					<option value="flat_list">_MENU_FLAT</option>
+				</param>
+				<param name="menutype" type="text" default="" label="_MENU_NAME" description="_MENU_NAME_DESC" />
+		        <param name="@spacer" type="spacer" />
+				<param name="custom_class" type="text" default="-nav" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+		</params>
+		<i18n>
+			<en>
+				<files>
+					<filename>modules/mod_menu.php</filename>
+				</files>
+			</en>
+		</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+		<files>
+			<filename>mod_menu.php</filename>
+		</files>
+	</module>
+</modules>
+</dkinstall>

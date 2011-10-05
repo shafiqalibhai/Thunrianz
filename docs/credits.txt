@@ -1,0 +1,41 @@
+
+== LANIUS CMS CREDITS RECORD FILE ==
+
+Credits are reported in chronological order.
+Each credits line contains the nickname of a contributor which has someway
+contributed to Lanius CMS testing/development.
+Major active contributors (also called The Lanius CMS Team) can be found in
+the About page accessible from the Administrative Backend.
+
+If you have not been added to this file and you think you should have been, just tell us!
+We will apologize and permanently add the reference to this file.
+
+== Other developers ==
+
+tsfi
+signaltwo - adoDB lite database integration works
+jcauble - CSS modelling, design advisor
+franky2004 - debugging and general fixing
+lancelape
+lecterror - new frontend sitemap
+lepidosteus - new com_syndicate
+
+== Other testers ==
+
+billyv
+itochan
+longodj
+dmx22
+hbryant
+therenderman
+
+== Other documentation contributors ==
+lmantunes
+stigi
+
+== Translators
+
+billyv
+transdrake
+stigi
+tashunka01

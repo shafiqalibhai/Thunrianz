@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>forum_profile</id>
+			<name>Forum profile options</name>
+			<creationDate>2008-10-09</creationDate>
+			<author>legolas558</author>
+			<copyright>Released under GNU/GPL License</copyright>
+			<version>0.1</version>
+			<group>core</group>
+			<requirements>
+				<core>
+					<version>0.5.1</version>
+				</core>
+			</requirements>
+			<description>Forum profile options for user profile</description>
+			<params>
+				<param name="com_id" type="instance" component="forum" default="0" label="_FPROF_DEFAULT_INSTANCE" />
+			</params>
+			<files>
+				<filename>forum_profile.php</filename>
+			</files>
+		</drabot>
+	</drabots>
+</dkinstall>

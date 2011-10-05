@@ -1,0 +1,29 @@
+.dkcom_evententryitem1
+{
+  vertical-align   : top;
+  padding          : 3px;
+  background       : #e9e9e9;
+  border-bottom    : 1px solid #999999;
+}
+.dkcom_evententryitem2
+{
+  vertical-align   : top;
+  padding          : 3px;
+  border-bottom    : 1px solid #999999;
+
+}
+.dkcom_evententryitemcolumn1
+{
+  width:19%;
+  float:left;
+  clear:left;
+  padding:2px;
+}
+.dkcom_evententryitemcolumn2
+{
+  float:left;
+  width:79%;
+  padding:2px;
+}
+
+

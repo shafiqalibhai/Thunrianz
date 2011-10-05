@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_eventcal</id>
+			  <name>Event Calendar</name>
+			  <creationDate>02/09/2005</creationDate>
+			  <author>Lanius CMS Team</author>
+			  <version>0.2</version>
+			  <description>Display a calendar which shows events</description>
+			  <position>right</position>
+			  <group>event</group>
+			  <files>
+				<filename module="mod_eventcal">mod_eventcal.php</filename>
+			  </files>
+			<requirements>
+				<core>
+					<version>0.4.9</version>
+				</core>
+			</requirements>
+			<params>
+				<param name="redirect" type="boolean" default="0" label="_EVENTCAL_DO_REDIRECT" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC"></param>
+			</params>
+			<files>
+				<filename>modules/mod_eventcal.php</filename>
+			</files>
+			<i18n>
+				<en>
+					<files>
+						<filename>mod_eventcal.php</filename>
+						<filename>mod_eventcal.common.php</filename>
+					</files>
+				</en>
+			</i18n>
+		</module>
+	</modules>
+</dkinstall>

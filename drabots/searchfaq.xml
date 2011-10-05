@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>searchfaq</id>
+			<name>Search FAQs Drabot</name>
+			<author>The Lanius CMS Team</author>
+			<creationDate>2005/03/01</creationDate>
+			<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+			<version>4.5.1</version>
+			<group>search</group>
+			<description>Add the search in faq functionality to Items. Original author: KVT</description>
+			<requirements>
+				<core>
+					<version>0.4</version>
+				</core>
+			</requirements>
+			<files>
+				<filename mambot="searchfaq">searchfaq.php</filename>
+			</files>
+		</drabot>
+	</drabots>
+</dkinstall>

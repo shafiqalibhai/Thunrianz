@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<modules>
+	<module>
+		<id>mod_syndicate</id>
+		<version>0.1</version>
+		<creationDate>2007/11/07</creationDate>
+		<author>legolas558</author>
+		<copyright>Released under GNU/GPL License</copyright>
+		<name>Syndication links module</name>
+		<description>Show appropriate link/images to available feeds</description>
+		<position>left</position>
+		<group>syndicate</group>
+		<params>
+			<param name="show_images" type="boolean" default="1" label="_SYNDICATE_SHOW_IMAGES" />
+		</params>
+				<i18n>
+			<en>
+				<files>
+					<filename>modules/mod_syndicate.php</filename>
+				</files>
+			</en>
+		</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+		<files>
+			<filename>mod_syndicate.php</filename>
+		</files>
+	</module>
+</modules>
+</dkinstall>

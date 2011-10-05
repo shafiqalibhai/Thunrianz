@@ -1,0 +1,1 @@
+<?php die;?>a:8:{i:0;s:7:"topmenu";i:1;s:8:"mainmenu";i:2;s:15:"General Content";i:3;s:12:"General News";i:4;s:8:"usermenu";i:5;s:11:"servicemenu";i:6;s:16:"Public downloads";i:7;s:24:"Miscellanous newsflashes";}

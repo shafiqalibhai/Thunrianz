@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_banner</id>
+			<name>Banners</name>
+			  <author>Lanius CMS Team</author>
+			  <version>0.2</version>
+			  <position>top</position>
+			  <group>banner</group>
+			<params>
+				<param name="bannerid" type="text" default="" label="_BANNER_ID" />
+				<param name="jsrotate" type="integer" default="0" label="_BANNER_JS_ROTATE" description="_BANNER_JS_ROTATE_DESC" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_banner.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+			<files>
+				<filename>mod_banner.php</filename>
+				<filename>mod_banner.common.php</filename>
+			</files>
+		</module>
+	</modules>
+</dkinstall>

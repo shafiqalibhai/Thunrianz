@@ -1,0 +1,61 @@
+.dkcom_evententryitem1
+
+{
+
+  vertical-align   : top;
+
+  padding          : 3px;
+
+  background       : #E6EEF2;
+
+  border-top       : 1px solid #FFFFFF;
+
+  border-bottom    : 1px solid #999999;
+
+}
+
+.dkcom_evententryitem2
+
+{
+
+  vertical-align   : top;
+
+  padding          : 3px;
+
+  background       : #E5E5E5;
+
+  border-top       : 1px solid #FFFFFF;
+
+  border-bottom    : 1px solid #999999;
+
+
+
+}
+
+.dkcom_evententryitemcolumn1
+
+{
+
+  width:19%;
+
+  float:left;
+
+  clear:left;
+
+  padding:2px;
+
+}
+
+.dkcom_evententryitemcolumn2
+
+{
+
+  float:left;
+
+  width:79%;
+
+  padding:2px;
+
+}
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+	<component>
+	<id>com_search</id>
+	<name>Search</name>
+	<version>0.1</version>
+	<description>Lanius CMS core component </description>
+  	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+   	<params>	
+		<param name="show_count" type="integer" default="10" min="1" label="_SHOW_COUNT" />
+	</params>
+</component>
+</components>
+</dkinstall>

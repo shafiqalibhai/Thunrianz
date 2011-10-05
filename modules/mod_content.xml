@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_content</id>
+			<name>Custom content</name>
+			<author>legolas558</author>
+			<position>left</position>
+			<version>0.1</version>
+			<creationDate>2008/09/18</creationDate>
+			<description>Custom XHTML content</description>
+			<params>
+				<param name="content" type="textarea" label="_MOD_CONTENT" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_content.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.5.1</version>
+			</core>
+		</requirements>
+			<files>
+				<filename>mod_content.php</filename>
+			</files>
+		</module>
+	</modules>
+</dkinstall>

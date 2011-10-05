@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+	<components>
+		<component>
+			<id>com_wrapper</id>
+			<name>Wrapper</name>
+			<version>0.1</version>
+			<description>Lanius CMS core component</description>
+			<requirements>
+				<core>
+					<version>0.4</version>
+				</core>
+			</requirements>
+			<params>
+				<param name="url" type="text" default="" required="1" label="_URL" />
+				<param name="scrolling" type="list" default="auto" label="_WRAPPER_SCROLLING" >
+					<option value="auto">_WRAPPER_AUTO</option>
+					<option value="yes">_YES</option>
+					<option value="no">_NO</option>
+				</param>
+				<param name="use_iframe" type="list" default="auto" label="_USE_IFRAME" >
+					<option value="auto">_WRAPPER_AUTO</option>
+					<option value="yes">_YES</option>
+					<option value="no">_NO</option>
+				</param>
+				<param name="include_mode" type="list" default="auto" label="_INCLUDE_MODE" >
+					<option value="auto">_WRAPPER_AUTO</option>
+					<option value="php">_PHP_INCLUDE</option>
+					<option value="raw">_RAW_FILE</option>
+					<option value="pre">_PRE_BLOCK</option>
+				</param>
+				<param name="page_title" type="boolean" default="1" label="_SHOW_PAGE_TITLE" />
+				<param name="width" type="text" default="100%" label="_FRAME_WIDTH" />
+				<param name="height" type="text" default="0" label="_FRAME_HEIGHT" />
+			</params>
+		</component>
+	</components>
+</dkinstall>

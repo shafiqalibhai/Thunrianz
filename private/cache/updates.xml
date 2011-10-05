@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?><updates version="0.5.2 r1668">
+<drabots>
+<drabot>
+<id>drawiki</id>
+<name>Wiki Hyperlinks Drabot</name>
+<creationDate>2008-05-27 01:00:00</creationDate>
+<author>legolas558</author>
+<version>0.2</version>
+<license>GNU/GPLv2</license>
+<description>Allows wiki hyperlinks inside content text</description>
+<size>1144</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</drabot>
+</drabots>
+<languages>
+<language>
+<id>cn</id>
+<name>Simplified Chinese</name>
+<creationDate>2009-04-25 01:00:00</creationDate>
+<author>Joey Zhou</author>
+<version>0.1</version>
+<license>GNU/GPL v2</license>
+<description></description>
+<size>41129</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</language>
+<language>
+<id>hr</id>
+<name>Hrvatski</name>
+<creationDate>2008-12-27 00:00:00</creationDate>
+<author>NAntic</author>
+<version>0.3</version>
+<license>GNU/GPL v2</license>
+<description></description>
+<size>49148</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</language>
+<language>
+<id>de</id>
+<name>Deutsch</name>
+<creationDate>2009-02-26 00:00:00</creationDate>
+<author>HeliG</author>
+<version>0.3</version>
+<license>GNU/GPL v2</license>
+<description></description>
+<size>50671</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</language>
+<language>
+<id>it</id>
+<name>Italiano</name>
+<creationDate>2009-02-25 00:00:00</creationDate>
+<author>legolas558, tashunka01, rsavarese, luke686</author>
+<version>0.4</version>
+<license>GNU/GPL v2</license>
+<description></description>
+<size>50207</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</language>
+<language>
+<id>sr</id>
+<name>Srpski</name>
+<creationDate>2009-04-25 01:00:00</creationDate>
+<author>SerbiaProg Network</author>
+<version>0.1</version>
+<license>GNU/GPL v2</license>
+<description></description>
+<size>49785</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</language>
+<language>
+<id>ca</id>
+<name>Canadien Français</name>
+<creationDate>2009-02-27 00:00:00</creationDate>
+<author>Chimère</author>
+<version>0.1</version>
+<license>GNU/GPL v2</license>
+<description></description>
+<size>42985</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</language>
+<language>
+<id>sk</id>
+<name>Slovenčina</name>
+<creationDate>2009-01-06 00:00:00</creationDate>
+<author>Rasto S</author>
+<version>0.2</version>
+<license>GNU/GPL v2</license>
+<description></description>
+<size>48599</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</language>
+<language>
+<id>nl</id>
+<name>Nederlands</name>
+<creationDate>2009-04-25 01:00:00</creationDate>
+<author>Han Sytsma</author>
+<version>0.31</version>
+<license>GNU/GPL v2</license>
+<description></description>
+<size>48164</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</language>
+<language>
+<id>br</id>
+<name>Brazilian portuguese</name>
+<creationDate>2009-07-31 01:00:00</creationDate>
+<author>VinIPSmaker</author>
+<version>0.3</version>
+<license>GNU/GPL v2</license>
+<description></description>
+<size>45565</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</language>
+</languages>
+<patches>
+<patch>
+<id>adodb_lite_drivers_pack</id>
+<name>adoDB lite drivers pack</name>
+<creationDate>2008-12-24 00:00:00</creationDate>
+<author>The Lanius CMS Team</author>
+<version>0.5</version>
+<license>GNU/GPLv2</license>
+<description>Additional adoDB lite drivers</description>
+<size>124374</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</patch>
+<patch>
+<id>update_to_r983</id>
+<name>Update Lanius CMS from v0.5.0 r362 to v0.5.1 r983</name>
+<creationDate>2009-02-25 00:00:00</creationDate>
+<author>legolas558</author>
+<version>0.5.1</version>
+<license>GNU GPL v2</license>
+<description></description>
+<size>493576</size>
+<requirements><core><version>0.5.0</version></core></requirements>
+</patch>
+<patch>
+<id>revision_update_to_r1668</id>
+<name>Update Lanius CMS from v0.5.2 r1041 (and above) to v0.5.2 r1668</name>
+<creationDate>2009-09-20 01:00:00</creationDate>
+<author>legolas558</author>
+<version>0.5.2</version>
+<license>GNU GPL v2</license>
+<description></description>
+<size>318170</size>
+<requirements><core><version>0.5.2</version></core></requirements>
+</patch>
+</patches>
+<templates>
+<template>
+<id>ecobusiness</id>
+<name>Ecobusiness</name>
+<creationDate>2009-02-20 00:00:00</creationDate>
+<author>ilmich</author>
+<version>0.1</version>
+<license>GNU/GPL</license>
+<description>Lanius CMS template by ilmich</description>
+<size>36719</size>
+<requirements><core><version>0.5.1</version></core></requirements>
+</template>
+<template>
+<id>cleanplate</id>
+<name>Clean Plate</name>
+<creationDate>2008-01-26 00:00:00</creationDate>
+<author>J. Burpo</author>
+<version>1.3</version>
+<license>GNU/GPLv2</license>
+<description>Fresh start</description>
+<size>13994</size>
+<requirements><core><version>0.4.10</version></core></requirements>
+</template>
+<template>
+<id>fixgrey</id>
+<name>Fix Grey</name>
+<creationDate>2007-05-20 01:00:00</creationDate>
+<author>r.savarese</author>
+<version>1.0</version>
+<license>GNU/GPL</license>
+<description>Fix template for Lanius CMS</description>
+<size>16385</size>
+<requirements><core><version>0.4.9</version></core></requirements>
+</template>
+<template>
+<id>fixblue</id>
+<name>Fix Blue</name>
+<creationDate>2007-03-20 00:00:00</creationDate>
+<author>r.savarese</author>
+<version>1.0</version>
+<license>GNU/GPL</license>
+<description>Fix template for Lanius CMS</description>
+<size>31005</size>
+<requirements><core><version>0.4.9</version></core></requirements>
+</template>
+<template>
+<id>greyplate</id>
+<name>Grey Plate</name>
+<creationDate>2008-02-02 00:00:00</creationDate>
+<author>J. Burpo</author>
+<version>1.33</version>
+<license>GNU/GPL</license>
+<description>Carved out off stone</description>
+<size>10870</size>
+<requirements><core><version>0.4.10</version></core></requirements>
+</template>
+<template>
+<id>hitech</id>
+<name>hitech</name>
+<creationDate>2007-08-01 01:00:00</creationDate>
+<author>r.savarese</author>
+<version>1.0</version>
+<license>GNU/GPL</license>
+<description>Template for Lanius CMS site</description>
+<size>28590</size>
+<requirements><core><version>0.4.9</version></core></requirements>
+</template>
+<template>
+<id>rs_blue</id>
+<name>Lanius CMS Blue template</name>
+<creationDate>2008-11-01 00:00:00</creationDate>
+<author>rsavarese</author>
+<version>1.0</version>
+<license>GNU/GPL</license>
+<description>Lanius CMS Blue template</description>
+<size>29480</size>
+<requirements><core><version>0.5.0</version></core></requirements>
+</template>
+<template>
+<id>rs_bluelight</id>
+<name>Lanius CMS Blue Light template</name>
+<creationDate>2008-09-01 01:00:00</creationDate>
+<author>rsavarese</author>
+<version>1.0</version>
+<license>GNU/GPL</license>
+<description>Lanius CMS Blue Light template</description>
+<size>71241</size>
+<requirements><core><version>0.5.0</version></core></requirements>
+</template>
+<template>
+<id>rs_orange</id>
+<name>Lanius CMS orange template</name>
+<creationDate>2008-08-01 01:00:00</creationDate>
+<author>rsavarese</author>
+<version>1.0</version>
+<license>GNU/GPL</license>
+<description>Lanius CMS orange template</description>
+<size>34169</size>
+<requirements><core><version>0.5.0</version></core></requirements>
+</template>
+<template>
+<id>trex</id>
+<name>DrakeTrex</name>
+<creationDate>2007-03-05 00:00:00</creationDate>
+<author>trex1512</author>
+<version>1.01</version>
+<license>GNU/GPL</license>
+<description>DrakeTrex is a simple and stylish template based on the old LimboCMS template.  The clean design of this template makes it very lightweight and fast.This is the default template from Limbo CMS reworked for Mambo 4.5.1 by Stefan Koeller; this version has been reworked for Drake CMS by Terry Fage (trex1512), Daniele C. (legolas558) and R.Savarese (rsavarese).</description>
+<size>28271</size>
+<requirements><core><version>0.4.9</version></core></requirements>
+</template>
+</templates>
+</updates>

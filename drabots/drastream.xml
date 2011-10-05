@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<drabots>
+<drabot>
+	<id>drastream</id>
+	<name>Stream Drabot</name>
+	<group>content</group>
+	<author>legolas558</author>
+	<creationDate>2008/09/19</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>0.1</version>
+	<description>Place streams within content</description>
+  	<requirements>
+		<core>
+			<version>0.5.1</version>
+		</core>
+	</requirements>
+	<files>
+		<filename>drastream.php</filename>
+	</files>
+		<params dklangshare="mod_stream">
+			<param name="type" type="list" default="wm" label="_STREAM_RENDERER" description="_RENDERER_DESC">
+				<option value="wm">_STREAM_WM</option>
+				<option value="qt">_STREAM_QT</option>
+				<option value="flash">_STREAM_FLASH</option>
+				<option value="real">_STREAM_REAL</option>
+			</param>
+			<param name="url" type="text" default="" label="_STREAM_URL" />
+			<param name="hidden" type="boolean" default="0" label="_HIDE_PLAYER" />
+			<param name="width" type="integer" default="170" label="_STREAM_WIDTH" />
+			<param name="height" type="integer" default="150" label="_STREAM_HEIGHT" />
+			<param name="controls" type="boolean" default="1" label="_SHOW_CONTROLS" />
+			<param name="autostart" type="boolean" default="1" label="_AUTO_START" />
+			<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+		</params>
+		<i18n>
+			<en>
+				<files>
+					<filename>modules/mod_stream.php</filename>
+				</files>
+			</en>
+		</i18n>
+	</drabot>
+</drabots>
+</dkinstall>

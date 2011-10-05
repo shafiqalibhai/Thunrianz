@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+<id>com_polls</id>
+  <name>Polls</name>
+  <version>0.1</version>
+  <description>Lanius CMS core component, xml file referenced for parameters</description>
+	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+  	<params>	
+		<param name="poll_id" type="integer" default="0" label="_POLL_A_ID" />
+		<param name="vote_delay" type="integer" default="86400" label="_POLL_VOTE_DELAY" />
+	</params>
+</component>
+</components>
+</dkinstall>

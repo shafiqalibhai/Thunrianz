@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>searchevent</id>
+			<name>Search Event Drabot</name>
+			<group>search</group>
+			<author>The Lanius CMS Team</author>
+			<creationDate>2005/03/01</creationDate>
+			<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+			<version>1.1</version>
+			<description>Add the search in event component. Original author: Vikas Patial</description>
+				<requirements>
+					<core>
+						<version>0.4</version>
+					</core>
+				</requirements>
+			<files>
+			<filename>searchevent.php</filename>
+			</files>
+			<params/>
+		 </drabot>
+	</drabots>
+</dkinstall>

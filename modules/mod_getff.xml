@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_getff</id>
+			<name>Get Firefox</name>
+			<author>legolas558</author>
+			<position>right</position>
+			<version>1.2</version>
+			<description>Shows a link to get Firefox when user is using IE</description>
+			<requirements>
+				<core>
+					<version>0.5.1</version>
+				</core>
+			</requirements>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_getff.php</filename>
+					</files>
+				</en>
+			</i18n>
+			<files>
+				<filename>mod_getff.php</filename>
+				<filename>images/getff.png</filename>
+			</files>
+			<params>
+				<param name="show_filter" type="list" default="ie" label="_GETFF_SHOW_FILTER">
+					<option value="all">_GETFF_SHOW_ALL</option>
+					<option value="ngecko">_GETFF_SHOW_ALLNG</option>
+					<option value="ie">_GETFF_SHOW_IE</option>
+				</param>
+				<param name="msg" type="text" default="Take back the web" label="_GETFF_MSG" />
+			</params>
+		</module>
+	</modules>
+</dkinstall>

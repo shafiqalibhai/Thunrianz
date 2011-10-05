@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>captchasi</id>
+			<name>CAPTCHA Security Images</name>
+			<author>The Lanius CMS Team</author>
+			<creationDate>2009/02/11</creationDate>
+			<license>http://www.gnu.org/copyleft/gpl.html GNU/GPLv2</license>
+			<version>0.1</version>
+			<group>captcha</group>
+			<description>Captcha Security Images by S.Jarvis integration</description>
+			<requirements>
+				<core>
+					<version>0.5.2</version>
+				</core>
+			</requirements>
+		</drabot>
+	</drabots>
+</dkinstall>
+

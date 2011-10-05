@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+	<id>com_downloads</id>
+  <name>Downloads</name>
+  <creationDate>2005/01/13</creationDate>
+  <author>The Lanius CMS Team</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <version>0.3</version>
+  <description>Downloads manager component</description>
+	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+  <files>
+    <filename>downloads.php</filename>
+    <filename>downloads.html.php</filename>
+	<filename>lang/downloads.english.php</filename>
+  </files>
+  <install>
+    <queries>
+      <query>
+      FIX ME!
+)  </query>
+    </queries>
+  </install>
+  <modules>
+  <module>downloads</module>
+  </modules>
+  <uninstall>
+      <queries>
+      <query>DELETE FROM #__categories WHERE section='com_downloads'</query>
+      <query>DROP TABLE #__downloads</query>
+      </queries>
+  </uninstall>
+  <administration>
+    <menu>Downloads Manager</menu>
+    <submenu>
+      <menu option="items">Downloads</menu>	
+	  <menu option="categories">Categories</menu>
+	</submenu>
+    <files>
+      <filename>downloads.toolbar.php</filename>
+      <filename>admin.downloads.html.php</filename>
+	  <filename>admin.downloads.php</filename>
+	  <filename>lang/admin.downloads.english.php</filename>
+    </files>
+</administration>
+<params>	
+	<param name="description" type="text" label="_DOWNLOADS_P_DESC" />
+	<param name="show_count" type="integer" min="1" default="10" label="_SHOW_COUNT" />
+</params>
+<modules>
+<module>downloads</module>
+</modules>
+<drabots>
+<drabot>limdown</drabot>
+</drabots>
+</component>
+</components>
+</dkinstall>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+	<id>com_message</id>
+	<name>Message</name>
+	<version>0.1</version>
+	<description>Private messages component</description>
+  	<requirements>
+		<core>
+			<version>0.5.1</version>
+		</core>
+	</requirements>
+   	<params>
+		<param name="recp_list" type="list" default="name" label="_MESSAGE_RECP_LIST">
+			<option value="username">_MESSAGE_RECP_LIST_USERNAME</option>
+			<option value="name">_MESSAGE_RECP_LIST_NAME</option>
+			<option value="username,name">_MESSAGE_RECP_LIST_BOTH</option>
+		</param>
+		<param name="multiple_recp" type="boolean" default="0" label="_MESSAGE_MULTIPLE_RECP" />
+		<param name="send_message" type="boolean" default="1" label="_MESSAGE_DELIVER" />
+		<param name="store_mode" type="list" default="1" label="_MESSAGE_STORE_MODE">
+			<option value="0">_MESSAGE_STORE_NONE</option>
+			<option value="1">_MESSAGE_STORE</option>
+			<option value="2">_MESSAGE_STORE_SN</option>
+		</param>
+		<param name="message_max_size" type="integer" min="10" default="1024" label="_MESSAGE_MAXIMUM_SIZE" />
+		<param name="recp_min_gid" type="access" default="4" label="_MESSAGE_RECP_MIN_GID" />
+		<param name="allow_attachment" type="boolean" default="1" label="_CONTACT_ALLOW_ATTACHMENT" />
+		<param name="captcha" type="boolean" default="1" label="_CONTACT_CAPTCHA" />
+	</params>
+</component>
+</components>
+</dkinstall>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<modules>
+	<module>
+		<id>mod_popular</id>
+		<name>Popular News</name>
+		<author>Lanius CMS Team</author>
+		<version>0.2</version>
+		<position>top</position>
+		<group>content</group>
+		<params>
+			<param name="desc" type="boolean" default="1" label="_SHOW_DESCRIPTION" />
+			<param name="secid" type="section" default="0" label="_POPULAR_CONTENT_SECTION" description="_POPULAR_CONTENT_SECTION_DESC" />
+			<param name="catid" type="category" label="_POPULAR_CONTENT_CATEGORY" description="_POPULAR_CONTENT_CATEGORY_DESC" />
+			<param name="@spacer" type="spacer" default="" />
+			<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+		</params>
+		<i18n>
+			<en>
+				<files>
+					<filename>modules/mod_popular.php</filename>
+				</files>
+			</en>
+		</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+		<files>
+			<filename>mod_popular.php</filename>
+		</files>		
+	</module>
+</modules>
+</dkinstall>

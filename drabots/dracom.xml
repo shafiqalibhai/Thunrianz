@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>dracom</id>
+			<name>Comments Drabot</name>
+			<author>The Lanius CMS Team</author>
+			<creationDate>2005/07/01</creationDate>
+			<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+			<version>1.1</version>
+			<group>content</group>
+			<description>Add the comments to Items with Smilies - Revised 11 September 2005. Original author: Limbo Freak</description>
+			<requirements>
+				<core>
+					<version>0.4</version>
+				</core>
+			</requirements>
+			<i18n>
+				<en>
+					<files>
+						<filename>drabots/dracom.php</filename>
+					</files>
+				</en>
+			</i18n>
+			<params>
+				<param name="visibility" type="access" default="0" label="_DRACOM_VISIBILITY" />
+				<param name="captcha" type="access" default="1" label="_DRACOM_CAPTCHA" />
+				<param name="private" type="boolean" default="0" label="_DRACOM_PRIVATE" />
+				<param name="approval" type="boolean" default="1" label="_DRACOM_APPROVE" />
+			</params>
+			<files>
+				<filename>dracom.php</filename>
+				<filename>dracom.xml</filename>
+			</files>
+		</drabot>
+	</drabots>
+</dkinstall>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+	<components>
+		<component>
+		<id>com_event</id>
+		  <name>Event Manager</name>
+		  <creationDate>2005/08/10</creationDate>
+		  <author>legolas558</author>
+		  <copyright>This component is released under the GNU/GPL License</copyright>
+		  <authorEmail></authorEmail>
+		  <authorUrl></authorUrl>
+		  <version>2.0</version>
+		  <description>A very simple event module - original author: Vikas Patial</description>
+	  	<requirements>
+			<core>
+				<version>0.4</version>
+			</core>
+		</requirements>
+		  <files>
+		    <filename>event.php</filename>
+		    <filename>event.html.php</filename>
+			<filename>lang/event.english.php</filename>
+		  </files>
+		  <install>
+		    <queries>
+			<query>
+		CREATE TABLE #__event (
+		id int(10) auto_increment,
+		title varchar(255) NOT NULL DEFAULT '',
+		description text,
+		sdate varchar(20) NOT NULL DEFAULT '0',
+		edate varchar(20) NOT NULL DEFAULT '0',
+		published int(1) NOT NULL DEFAULT '0',
+		PRIMARY KEY (id) 
+		  )
+		</query>
+		    </queries>
+		  </install>
+		  <uninstall>
+		      <queries>
+		      
+		      <query>DROP TABLE #__event</query>
+			  </queries>
+		  </uninstall>
+		  <administration>
+			<menu>Event Manager</menu>
+		    <files>
+		      <filename>event.toolbar.php</filename>
+		      <filename>admin.event.html.php</filename>
+			  <filename>admin.event.php</filename>
+			  <filename>lang/admin.event.english.php</filename>
+		    </files>
+		</administration>
+		   	<params>	
+				<param name="show_count" type="integer" min="1" default="10" label="_SHOW_COUNT" />
+				<param name="default_sorting" type="list" default="ASC" label="_EVENT_DEFAULT_SORTING">
+					<option value="ASC">_SORT_ASC</option>
+					<option value="DESC">_SORT_DESC</option>
+				</param>
+			</params>
+		<modules>
+		<module>eventcal</module>
+		</modules>	
+		<drabots>
+		<drabot>searchevent</drabot>
+		</drabots>		
+		</component>
+	</components>
+</dkinstall>

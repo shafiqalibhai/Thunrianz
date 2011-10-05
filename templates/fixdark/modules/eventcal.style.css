@@ -1,0 +1,54 @@
+.dkmod_eventcal
+
+{
+ background       : #DDDDCC;
+}
+
+.dkmod_eventcal a.movelink
+
+{
+
+  font-size:11px;
+
+  color       : #000080;
+
+  text-decoration:none;
+
+}
+
+.dkmod_eventcal table.header
+
+{
+
+  background-color : #666666;
+
+}
+
+.dkmod_eventcal span.monthyear
+
+{
+
+  color       : #ffffff;
+
+}
+
+.dkmod_eventcal td.sunday, td.monday, td.tuesday, td.wednesday, td.thursday, td.friday, td.saturday
+
+{
+
+  font-size:11px;
+
+  color       : #ffffff;
+
+  background-color : #666666;
+
+}
+
+.dkmod_eventcal .daylink
+
+{
+
+  background-color : #FFCC00;
+
+}
+

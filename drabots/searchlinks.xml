@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>searchlinks</id>
+			  <name>Search weblinks drabot</name>
+			  <group>search</group>
+			  <author>legolas558</author>
+			  <creationDate>2008/03/23</creationDate>
+			  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+			  <version>0.1</version>
+			  <description>Search into weblinks categories and items</description>
+				<requirements>
+					<core>
+						<version>0.4</version>
+					</core>
+				</requirements>
+			<files>
+			    <filename>searchlinks.php</filename>
+			  </files>
+			  <params/>
+		 </drabot>
+	 </drabots>
+</dkinstall>

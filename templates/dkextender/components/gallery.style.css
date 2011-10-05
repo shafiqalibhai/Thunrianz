@@ -1,0 +1,11 @@
+
+.imagelist { background: #CCFFFF none repeat; width: 138px; display: block; }
+.imagelist { border-style: solid; border-color: rgb(204, 204, 204) rgb(153, 153, 153) rgb(153, 153, 153) rgb(204, 204, 204); border-width: 1px; display: table; overflow: hidden; }
+.imagelist:hover { background: #FFFFFF none repeat; }
+.imagelist p {text-align: center; }
+.imagelist a img {text-align: center; }
+
+.gallery_title { margin-top: 4px; font-size: larger; font-weight:bold;}
+.gallery_desc {
+	padding: 2px 2px 2px 2px;
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_whosonline</id>
+			<name>Who's online module</name>
+			<creationDate>2007/05/17</creationDate>
+			<author>legolas558</author>
+			<copyright>Released under GNU/GPL License</copyright>
+			<authorEmail></authorEmail>
+			<version>0.1</version>
+			<description>Shows general information about online users</description>
+			<position>right</position>
+			<files>
+				<filename>mod_whosonline.php</filename>
+			</files>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_whosonline.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+		</module>
+	</modules>
+</dkinstall>

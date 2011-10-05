@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>reg_filter</id>
+			<name>Account filtering drabot</name>
+			<creationDate>2009/06/30</creationDate>
+			<author>legolas558</author>
+			<copyright>Released under GNU/GPL License</copyright>
+			<authorEmail>legolas558@users.sourceforge.net</authorEmail>
+			<version>0.1</version>
+			<group>core</group>
+			<description>will filter out invalid accounts following some custom criteria, e.g. not-working email providers</description>
+			<requirements>
+				<core>
+					<version>0.5.0</version>
+				</core>
+			</requirements>
+			<params>
+				<param name="domains" type="text" default="hotmail" label="_REG_FILTER_DOMAINS" description="_REG_FILTER_DOMAINS_DESC" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>drabots/reg_filter.php</filename>
+					</files>
+				</en>
+			</i18n>
+			<files>
+				<filename>reg_filter.php</filename>
+			</files>
+		</drabot>
+	</drabots>
+</dkinstall>

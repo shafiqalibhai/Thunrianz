@@ -1,0 +1,27 @@
+
+.dkmod_polls td.row1 {
+  vertical-align   : top;
+  padding          : 2px;
+  background       : #e9e9e9;
+  text-align:left;
+}
+.dkmod_polls td.row2 {
+  vertical-align   : top;
+  padding          : 2px;
+  text-align:left;
+}
+
+.dkmod_polls .polls_header
+{
+  font-weight:bold;
+  text-align:left;
+}
+.dkmod_polls table
+{
+  width:98%;
+}
+.dkmod_polls .dk_content 
+{
+  padding-top:5px;
+  margin-bottom:5px;
+}

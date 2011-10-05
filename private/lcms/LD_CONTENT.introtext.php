@@ -1,0 +1,1 @@
+<?php die;?>a:2:{i:0;s:184:"<p align="center">Welcome to the demo website installed by default with Lanius CMS!<br />Begin customizing your brand new Lanius CMS using the <a href="admin.php">admin backend</a></p>";i:1;s:21:"<p>Sample article</p>";}

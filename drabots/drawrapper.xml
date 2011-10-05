@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<drabots>
+<drabot>
+	<id>drawrapper</id>
+	<name>Wrapper Drabot</name>
+	<group>content</group>
+	<author>The Lanius CMS Team</author>
+	<creationDate>2007/09/07</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>0.1</version>
+	<description>Wrap anything into content items</description>
+  	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+			<i18n>
+			<en>
+				<files>
+					<filename>drabots/drawrapper.php</filename>
+				</files>
+			</en>
+		</i18n>
+		<files>
+		<filename>drawrapper.php</filename>
+	</files>
+	<params dklangshare="com_wrapper">
+		<param name="scrolling" type="list" default="auto" label="_WRAPPER_SCROLLING" >
+			<option value="auto">_WRAPPER_AUTO</option>
+			<option value="yes">_YES</option>
+			<option value="no">_NO</option>
+		</param>
+		<param name="use_iframe" type="list" default="auto" label="_USE_IFRAME" >
+			<option value="auto">_WRAPPER_AUTO</option>
+			<option value="yes">_YES</option>
+			<option value="no">_NO</option>
+		</param>
+		<param name="include_mode" type="list" default="pre" label="_INCLUDE_MODE" >
+			<option value="auto">_WRAPPER_AUTO</option>
+			<option value="php">_PHP_INCLUDE</option>
+			<option value="raw">_RAW_FILE</option>
+			<option value="pre">_PRE_BLOCK</option>
+		</param>
+		<param name="width" type="text" default="100%" label="_FRAME_WIDTH" />
+		<param name="height" type="text" default="0" label="_FRAME_HEIGHT" />
+	</params>
+</drabot>
+</drabots>
+</dkinstall>

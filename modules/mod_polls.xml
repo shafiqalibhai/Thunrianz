@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_poll</id>
+			<name>Poll Module</name>
+			<author>Lanius CMS Team</author>
+			<version>0.2</version>
+			<position>right</position>
+			<group>polls</group>
+			<params>
+				<param name="pollid" type="integer" default="0" label="_POLL_ID" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_polls.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+			<files>
+				<filename>mod_polls.php</filename>
+			</files>
+		</module>
+	</modules>
+</dkinstall>

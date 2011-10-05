@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<drabots>
+		<drabot>
+			<id>smmail</id>
+			<name>Sendmail mailer</name>
+			<author>The Lanius CMS Team</author>
+			<creationDate>2007/11/29</creationDate>
+			<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+			<version>0.1</version>
+			<group>mail</group>
+			<description>Sendmail mailer</description>
+			<requirements>
+				<core>
+					<version>0.4</version>
+				</core>
+			</requirements>
+			<params>
+				<param name="sendmail_path" type="text" default="sendmail" label="_SMMAIL_SENDMAIL_PATH" />
+			</params>
+		</drabot>
+	</drabots>
+</dkinstall>

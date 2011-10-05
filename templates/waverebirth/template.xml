@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<templates>
+		<template>
+			<id>waverebirth</id>
+			<name>waverebirth</name>
+			<creationDate>2009/10/17</creationDate>
+			<author>Shafiq Issani</author>
+			<copyright>GNU/GPL</copyright>
+			<authorEmail></authorEmail>
+			<authorUrl>http://shafiq.in</authorUrl>
+			<version>1.0</version>
+			<description>Powered by Shafiq Issani</description>
+			<requirements>
+   				<core>
+      					<version>0.4.10</version>
+   				</core>
+			</requirements>
+			<files>
+				<filename>index.php</filename>
+				<filename>template_thumbnail.png</filename>
+				<filename>template.style.css</filename>
+				<filename>template.xml</filename>
+				<filename>modules/menu.style.css</filename>
+				<filename>modules/eventcal.style.css</filename>
+				<filename>modules/polls.style.css</filename>
+				<filename>drabots/dravote.style.css</filename>
+				<filename>components/polls.style.css</filename>
+				<filename>components/gallery.style.css</filename>
+				<filename>components/event.style.css</filename>
+				<filename>images/boff.png</filename>
+				<filename>images/bon.png</filename>
+				<filename>images/bullet.png</filename>
+				<filename>images/bk.png</filename>
+				<filename>images/inputback.jpg</filename>
+				<filename>images/logo.png</filename>
+				<filename>images/indent1.png</filename>
+				<filename>images/topheader.png</filename>
+			</files>
+		</template>
+	</templates>
+</dkinstall>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+	<id>com_login</id>
+	<name>Login</name>
+	<version>0.1</version>
+	<description>Login component</description>
+  	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+   	<params>	
+		<param name="captcha" type="boolean" default="0" label="_LOGIN_CAPTCHA" />
+	</params>
+</component>
+</components>
+</dkinstall>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+	<modules>
+		<module>
+			<id>mod_latest_news</id>
+			<name>Latest News</name>
+			<author>Lanius CMS Team</author>
+			<version>0.2</version>
+			<position>top</position>
+			<group>content</group>
+			<params>
+				<param name="desc" type="boolean" default="0" label="_LATEST_NEWS_SHOW_DESCRIPTION" />
+				<param name="count" type="integer" default="5" label="_COUNT" description="_LATEST_NEWS_COUNT_DESC" />
+				<param name="col_count" type="integer" default="1" label="_LATEST_NEWS_COLUMNS_COUNT" />
+				<param name="secid" type="section" default="0" label="_LATEST_NEWS_CONTENT_SECTION" description="_LATEST_NEWS_CONTENT_SECTION_DESC" />
+				<param name="catid" type="category" default="" label="_LATEST_NEWS_CONTENT_CATEGORY" description="_LATEST_NEWS_CONTENT_CATEGORY_DESC" />
+				<param name="@spacer" type="spacer" />
+				<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+			</params>
+			<i18n>
+				<en>
+					<files>
+						<filename>modules/mod_latest_news.php</filename>
+					</files>
+				</en>
+			</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+			<files>
+				<filename>mod_latest_news.php</filename>
+				<filename>mod_latest_news.common.php</filename>
+			</files>
+		</module>
+	</modules>
+</dkinstall>

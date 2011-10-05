@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dkinstall version="0.3">
+<modules>
+	<module>
+		<id>mod_wrapper</id>
+		<version>0.1</version>		
+		<creationDate>2007/09/07</creationDate>
+		<author>legolas558</author>
+		<copyright>Released under GNU/GPL License</copyright>
+		<authorEmail>legolas558@email.it</authorEmail>
+		<name>Wrapper module</name>
+		<description>Allows wrapped content as modules</description>
+		<position>left</position>
+		<i18n>
+			<en>
+				<files>
+					<filename>modules/mod_wrapper.php</filename>
+				</files>
+			</en>
+		</i18n>
+		<requirements>
+			<core>
+				<version>0.4.9</version>
+			</core>
+		</requirements>
+		<params dklangshare="com_wrapper">
+			<param name="link" type="text" default="" required="1" label="_MODWRAPPER_LINK" />
+			<param name="page_title" type="boolean" default="1" label="_SHOW_PAGE_TITLE" />
+			<param name="scrolling" type="list" default="auto" label="_WRAPPER_SCROLLING" >
+				<option value="auto">_WRAPPER_AUTO</option>
+				<option value="yes">_YES</option>
+				<option value="no">_NO</option>
+			</param>
+			<param name="use_iframe" type="list" default="auto" label="_USE_IFRAME" >
+				<option value="auto">_WRAPPER_AUTO</option>
+				<option value="yes">_YES</option>
+				<option value="no">_NO</option>
+			</param>
+			<param name="include_mode" type="list" default="pre" label="_INCLUDE_MODE" >
+				<option value="auto">_WRAPPER_AUTO</option>
+				<option value="php">_PHP_INCLUDE</option>
+				<option value="raw">_RAW_FILE</option>
+				<option value="pre">_PRE_BLOCK</option>
+			</param>
+			<param name="width" type="text" default="100%" label="_FRAME_WIDTH" />
+			<param name="height" type="text" default="0" label="_FRAME_HEIGHT" />
+			<param name="custom_class" type="text" default="" label="_CUSTOM_CLASS" description="_CUSTOM_CLASS_DESC" />
+		</params>
+		<files>
+			<filename>mod_wrapper.php</filename>
+		</files>
+	</module>
+</modules>
+</dkinstall>

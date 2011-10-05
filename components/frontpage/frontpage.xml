@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dkinstall version="0.3">
+<components>
+<component>
+<id>com_frontpage</id>
+  <name>Frontpage</name>
+  <version>0.1</version>
+  <description>Lanius CMS core component, xml file referenced for parameters</description>
+	<requirements>
+		<core>
+			<version>0.4</version>
+		</core>
+	</requirements>
+  	<params>	
+		<param name="show_count" type="integer" min="1" default="10" label="_SHOW_COUNT" />
+		<param name="icons" type="boolean" default="1" label="_FRONTPAGE_SHOW_ICONS" />
+		<param name="show_column" type="boolean" default="0" label="_FRONTPAGE_2COL_NEWS" />
+	</params>
+</component>
+</components>
+</dkinstall>
